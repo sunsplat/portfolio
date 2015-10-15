@@ -40,7 +40,7 @@
             <input type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
-            <label for="recipient-name" class="control-label">Email:</label>
+            <label for="recipient-email" class="control-label">Email:</label>
             <input type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
@@ -51,7 +51,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <button type="button" class="btn btn-primary" name="submit">Send message</button>
       </div>
     </div>
   </div>

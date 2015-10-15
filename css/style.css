@@ -9,6 +9,7 @@
 
 .footer {
 	text-align: center;
-	margin-top: 20px;
-	position-bottom: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
