@@ -11,19 +11,19 @@
     <div class="item active">
       <img src="<?php echo base_url('bootstrap/images/carousel-1.png'); ?>" alt="image-1" class="img-responsive center-block">
       <div class="carousel-caption">
-        Portfolio
+        <h2>Portfolio</h2>
       </div>
     </div>
     <div class="item">
       <img src="<?php echo base_url('bootstrap/images/carousel-2.png'); ?>" alt="image-2" class="img-responsive center-block">
       <div class="carousel-caption">
-        About
+        <h2>About</h2>
       </div>
     </div>
     <div class="item">
       <img src="<?php echo base_url('bootstrap/images/carousel-3.png'); ?>" alt="image-3" class="img-responsive center-block">
       <div class="carousel-caption">
-        Season
+        <h2>Resources</h2>
       </div>
     </div>
   </div>

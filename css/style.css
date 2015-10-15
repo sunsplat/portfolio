@@ -1,0 +1,14 @@
+.carousel .item {
+  height: 500px;
+}
+
+.item img {
+    min-height: 500px;
+    width: 100%;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 20px;
+	position-bottom: 0px;
+}
