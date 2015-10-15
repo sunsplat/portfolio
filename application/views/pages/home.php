@@ -56,5 +56,8 @@
     </div>
   </div>
 </div>
+
 <?php $this->load->view("templates/snippets/carousel.php"); ?>
+<?php $this->load->view("templates/snippets/thumbnails.php"); ?>
+
 		
