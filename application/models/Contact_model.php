@@ -26,20 +26,20 @@ class Contact_model extends CI_Model {
 		 * everything is in lowercase characters. This leaves you with a nice 
 		 * slug, perfect for creating URIs.
 		 */
-		public function set_contact()
+		public function set_contact($message)
 		{
 		    $this->load->helper('url');
 
 		    $slug = url_title($this->input->post('name'), 'dash', TRUE);
 
-		    $data = array(
-		        'name' => $this->input->post('name'),
-		        'slug' => $slug,
-		        'email' => $this->input->post('email'),
-		        'message' => $this->input->post('message')
-		    );
+		    // $data = array(
+		    //     'name' => $this->input->post('name'),
+		    //     'slug' => $slug,
+		    //     'email' => $this->input->post('email'),
+		    //     'message' => $this->input->post('message')
+		    // );
 
-		    return $this->db->insert('contact', $data);
+		    $this->db->insert('contact', $message);
 		}
 
 }

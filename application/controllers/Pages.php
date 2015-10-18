@@ -32,27 +32,41 @@ class Pages extends CI_Controller {
          */
         public function create() 
         {
-
-                $this->form_validation->set_rules('name', 'Name', 'required');
-                $this->form_validation->set_rules('email', 'Email', 'required');
-                $this->form_validation->set_rules('message', 'Message', 'required');
                 var_dump($_POST);
-                exit;
-                if ($this->form_validation->run() == FALSE)
-                {
-                        echo validation_errors();
-                }
-                else
-                {
+                var_dump($_POST['name']);
 
-                        $this->contact_model->set_contact();
-                        $this->load->view('contact/success');
-                }
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $mg = $_POST['msg'];
 
+                $cleanName = filter_var(FILTER_SANITIZE_STRING, $name);
+                $cleanEmail = filter_var(FILTER_SANITIZE_EMAIL, $email);
+                $cleanMsg = filter_var(FILTER_SANITIZE_STRING, $msg);
 
-        }
+                $message - array(
+                        'name'    => $cleanMsg,
+                        'email'   => $cleanEmail,
+                        'message' => $cleanMsg
+                );
 
-        public function update() {
+                $this->contact_model->set_contact($message);
+
+                // $this->form_validation->set_rules('name', 'Name', 'required');
+                // $this->form_validation->set_rules('email', 'Email', 'required');
+                // $this->form_validation->set_rules('message', 'Message', 'required');
+
+                // if ($this->form_validation->run() == FALSE)
+                // {
+                //         echo validation_errors();
+                // }
+                // else
+                // {
+
+                //         $this->contact_model->set_contact();
+                //         $this->load->view('contact/success');
+                // }
+                // $this->contact_model->set_contact();
+                //         $this->load->view('contact/success');
 
         }
 

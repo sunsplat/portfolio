@@ -35,26 +35,25 @@
         <h4 class="modal-title" id="exampleModalLabel">New message</h4>
       </div>
       <div class="modal-body">
-        <?php echo validation_errors(); ?>
-        <?php echo form_open('pages/create'); ?>
+        <form>
           <div class="form-group">
             <label for="name" class="control-label">Name:</label>
-            <input type="text" class="form-control" id="name">
+            <input type="text" class="form-control" id="name" name="name">
           </div>
           <div class="form-group">
             <label for="email" class="control-label">Email:</label>
-            <input type="text" class="form-control" id="email">
+            <input type="text" class="form-control" id="email" name="email">
           </div>
           <div class="form-group">
             <label for="message" class="control-label">Message:</label>
-            <textarea class="form-control" id="message"></textarea>
+            <textarea class="form-control" id="message" name="message"></textarea>
           </div>
         </form>
       </div>
 
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <input type="submit" name="submit" class="btn btn-primary submit" value="Send Message" />
+        <input type="submit" id="submit" name="submit" class="btn btn-primary" value="Send Message" />
       </div>
     </div>
   </div>
@@ -66,27 +65,26 @@
 <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
 </a>
 
-<script type='text/javascript'>
-$(document).ready(function() {
-    $('input.submit').click(function() {
-        $.ajax({
-          url : "<?php echo base_url() ?>pages/create",
-          type: "POST",
-          data: {name : name, email: email, message: message},
-          dataType: "JSON",
-          success: function(data)
-          {
-             //if success close modal and reload ajax table
-             $('#exampleModal').modal('hide');
-             reload_table();
-          },
-          error: function ()
-          {
-              alert('Error adding / update data');
-          }
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('input#submit').click(function(){
+            var data = $('form').serialize();
+            $.ajax({
+                method: 'POST',
+                cache: false,
+                url: 'pages/create',
+                datatype: 'json',
+                data: data,
+                success: function(data){
+                    console.log('yay it worked');
+                    $('#exampleModal').modal('hide');
+                },
+                failure: function(){
+                    console.log('It didnt work');
+                }
+            });
         });
     });
-});
 </script>
 
 		
