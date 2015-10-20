@@ -30,7 +30,7 @@ class Contact_model extends CI_Model {
 		{
 		    $this->load->helper('url');
 
-		    $slug = url_title($this->input->post('name'), 'dash', TRUE);
+		    //$slug = url_title($this->input->post('name'), 'dash', TRUE);
 
 		    // $data = array(
 		    //     'name' => $this->input->post('name'),

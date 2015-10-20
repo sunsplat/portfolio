@@ -37,13 +37,13 @@ class Pages extends CI_Controller {
 
                 $name = $_POST['name'];
                 $email = $_POST['email'];
-                $mg = $_POST['msg'];
+                $msg = $_POST['message'];
 
-                $cleanName = filter_var(FILTER_SANITIZE_STRING, $name);
-                $cleanEmail = filter_var(FILTER_SANITIZE_EMAIL, $email);
-                $cleanMsg = filter_var(FILTER_SANITIZE_STRING, $msg);
+                $cleanName = filter_var($name, FILTER_SANITIZE_STRING);
+                $cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+                $cleanMsg = filter_var($msg, FILTER_SANITIZE_STRING);
 
-                $message - array(
+                $message = array(
                         'name'    => $cleanMsg,
                         'email'   => $cleanEmail,
                         'message' => $cleanMsg
