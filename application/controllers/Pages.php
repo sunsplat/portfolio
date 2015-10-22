@@ -1,6 +1,14 @@
 <?php
 class Pages extends CI_Controller {
 
+        public function __construct()
+        {
+                parent::__construct();
+                $this->load->helper(array('form', 'url'));
+                $this->load->library('form_validation');
+                $this->load->model('contact_model');
+        }
+
         public function view($page = 'home')
     	{
                 if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
