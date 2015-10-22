@@ -15,7 +15,7 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#resume">Resume</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a class="btn" data-toggle="modal" data-target="#exampleModal">Contact</a></li>
+					<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right social">
 					<li><a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter"></i></a></li>
@@ -26,16 +26,18 @@
 		</nav>
 </div>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+        <h4 class="modal-title" id="myModalLabel">New message</h4>
       </div>
       <div class="modal-body">
-        <form>
+        
+          <?php echo validation_errors(); ?>
+          <?php echo form_open('pages/create'); ?>
           <div class="form-group">
             <label for="name" class="control-label">Name:</label>
             <input type="text" class="form-control" id="name" name="name">
@@ -76,13 +78,15 @@
                 datatype: 'json',
                 data: data,
                 success: function(data){
-                    console.log('yay it worked');
-                    $('#exampleModal').modal('hide');
+                    alert('yay it worked');
+                    $('#myModal').modal('hide');
+                    $('input:text, textarea').val('');
                 },
                 failure: function(){
                     console.log('It didnt work');
                 }
             });
+          
         });
     });
 </script>
