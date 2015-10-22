@@ -14,7 +14,7 @@ class Quotes extends CI_Controller {
                 $data['title'] = 'Quotes';
 
                 $this->load->view('templates/header', $data);
-                $this->load->view('quotes/index', $data);
+                $this->load->view('pages/quotes', $data);
                 $this->load->view('templates/footer');
         }
 

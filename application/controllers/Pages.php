@@ -7,7 +7,6 @@ class Pages extends CI_Controller {
                 $this->load->helper(array('form', 'url'));
                 $this->load->library('form_validation');
                 $this->load->model('contact_model');
-                $this->load->model('quotes_model');
         }
 
         public function view($page = 'home')
@@ -66,16 +65,16 @@ class Pages extends CI_Controller {
                 }
         }
 
-        public function quote()
+        public function quotes()
         {
-            $this->load->view("quotes");
         
-                $data['quotes'] = $this->quotes_model->get_quotes();
-                $data['title'] = 'Quotes';
+            $this->load->model('quotes_model');
+            $data['quotes'] = $this->quotes_model->get_quotes();
+            $data['title'] = 'Quotes';
 
-                $this->load->view('templates/header', $data);
-                $this->load->view('quotes/index', $data);
-                $this->load->view('templates/footer'); 
+            $this->load->view('templates/header', $data);
+            $this->load->view('pages/quotes', $data);
+            $this->load->view('templates/footer'); 
         }
 
 }
