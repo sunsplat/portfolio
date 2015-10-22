@@ -13,9 +13,15 @@
   		<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav" id="top-nav">
 					<li><a href="#about">About</a></li>
+<<<<<<< Updated upstream
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a class="btn" data-toggle="modal" data-target="#exampleModal">Contact</a></li>
+=======
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
+>>>>>>> Stashed changes
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter"></i></a></li>
@@ -26,15 +32,17 @@
 		</nav>
 </div>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+        <h4 class="modal-title" id="myModalLabel">New message</h4>
       </div>
       <div class="modal-body">
-        <form>
+        
+          <?php echo validation_errors(); ?>
+          <?php echo form_open('pages/create'); ?>
           <div class="form-group">
             <label for="recipient-name" class="control-label">Name:</label>
             <input type="text" class="form-control" id="recipient-name">
@@ -57,4 +65,33 @@
   </div>
 </div>
 <?php $this->load->view("templates/snippets/carousel.php"); ?>
+
+<a name="portfolio">
+<?php $this->load->view("templates/snippets/thumbnails.php"); ?>
+</a>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('input#submit').click(function(){
+            var data = $('form').serialize();
+            $.ajax({
+                method: 'POST',
+                cache: false,
+                url: 'pages/create',
+                datatype: 'json',
+                data: data,
+                success: function(data){
+                    alert('yay it worked');
+                    $('#myModal').modal('hide');
+                    $('input:text, textarea').val('');
+                },
+                failure: function(){
+                    console.log('It didnt work');
+                }
+            });
+          
+        });
+    });
+</script>
+
 		
