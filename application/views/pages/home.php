@@ -13,15 +13,9 @@
   		<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav" id="top-nav">
 					<li><a href="#about">About</a></li>
-<<<<<<< Updated upstream
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a class="btn" data-toggle="modal" data-target="#exampleModal">Contact</a></li>
-=======
 					<li><a href="#resume">Resume</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
->>>>>>> Stashed changes
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter"></i></a></li>
