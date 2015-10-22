@@ -38,7 +38,7 @@
       <div class="modal-body">
         
           <?php echo validation_errors(); ?>
-          <?php echo form_open('pages/create'); ?>
+          <?php echo form_open('pages/home'); ?>
           <div class="form-group">
             <label for="name" class="control-label">Name:</label>
             <input type="text" class="form-control" id="name" name="name">

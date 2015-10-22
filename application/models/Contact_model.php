@@ -6,11 +6,11 @@ class Contact_model extends CI_Model {
             $this->load->database();
         }
 
-        public function get_contact($slug = FALSE)
+        public function get_quote($slug = FALSE)
 		{
 	    	if ($slug === FALSE)
         	{
-                $query = $this->db->get('contact');
+                $query = $this->db->get('quote');
                 return $query->result_array();
         	}
 
