@@ -15,6 +15,7 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#resume">Resume</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="<?php $this->load->view("templates/snippets/quotes.php"); ?>">Quotes</a></li>
 					<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right social">
