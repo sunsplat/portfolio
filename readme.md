@@ -2,8 +2,8 @@ Ellen Sun | Web Developer
 ======
 
 Using Codeigniter and Bootstrap to build my personal online portfolio.  
-[Bootstrap](http://www.getbootstrap.com)  
-[CodeIgniter](http://www.codeigniter.com/download)
+[Bootstrap](http://www.getbootstrap.com) - Front-end framework  
+[CodeIgniter](http://www.codeigniter.com/download) - PHP MVC framework  
 
 *********
 My Summary
