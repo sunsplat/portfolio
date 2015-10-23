@@ -1,7 +1,4 @@
-  </head>
-  
-  <body>
-		  <!-- top navigation bar -->
+	  <!-- top navigation bar -->
 		  <nav class="navbar navbar-inverse navbar-fixed-top">
 		  	<div class="container">
 		  		<div class="navbar-header">
@@ -15,8 +12,8 @@
 		  		</div>
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
-							<li><a href="#about">About</a></li>
-							<li><a href="#resume">Resume</a></li>
+							<li><a href="view#about">About</a></li>
+							<li><a href="view#resume">Resume</a></li>
 							<li><a href="view#portfolio">Portfolio</a></li>
 		          <li><a href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
