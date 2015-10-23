@@ -6,6 +6,7 @@
     
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
 	  <script src="<?php echo base_url('assets/bootstrap/js/jquery-1.11.3.min.js'); ?>"></script>	
+	  <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
     
     <title><?php echo $title; ?></title>
@@ -49,14 +50,16 @@
 
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		        <h4 class="modal-title" id="myModalLabel">New message</h4>
-		      </div>
+
+		      </div> <!-- modal-header -->
+
 		      <div class="modal-body">
 		        
-		          <?php echo validation_errors(); ?>
-		          <?php echo form_open('pages/create'); ?>
+	          <?php echo validation_errors(); ?>
+	          <?php echo form_open('pages/create'); ?>
 		          <div class="form-group">
 		            <label for="name" class="control-label">Name:</label>
-		            <input type="text" class="form-control" id="name" name="name">
+		            <input type="input" class="form-control" id="name" name="name">
 		          </div>
 		          <div class="form-group">
 		            <label for="email" class="control-label">Email:</label>
@@ -67,13 +70,13 @@
 		            <textarea class="form-control" id="message" name="message"></textarea>
 		          </div>
 		          <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		        <input type="submit" id="submit" name="submit" class="btn btn-primary" value="Send Message" />
-		      </div>
-		      </form>
-		      </div>
-		    </div>
-		  </div>
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <input type="submit" id="submit" name="submit" class="btn btn-primary" value="Send Message" />
+		      		</div>
+		      	</form>
+		    	</div>
+		    </div> <!-- modal-content -->
+		  </div> <!-- modal-dialog -->
 		</div>
 
 
