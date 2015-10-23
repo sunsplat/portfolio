@@ -17,8 +17,8 @@ Fully immersing myself in the Atlanta tech community, I regularly attend Meetups
 Bringing my ambition and passion for knowledge, my past professional work experience in team-oriented environments, and my adaptability gained from working abroad in international business settings, I offer a deadly combination that can help your company achieve its goals.  
   
   
-Github: `sunsplat <http://github.com/sunsplat>`_  
-Twitter: `@ms_ellerz <http://www.twitter.com/ms_ellerz>`_
+Github: [sunsplat](http://github.com/sunsplat)    
+Twitter: [@ms_ellerz](http://www.twitter.com/ms_ellerz)
 
 
 *********
@@ -32,5 +32,5 @@ LAMP stack, PHP, MySQL, Github, Heroku, Bitbucket, HTML, CSS, Ruby, Ruby on Rail
 ##Languages:
 
 
-*Mandarin Chinese (Professional-working level)  
-*English (Native)
+* Mandarin Chinese (Professional-working level)  
+* English (Native)
