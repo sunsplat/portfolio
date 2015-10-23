@@ -5,7 +5,6 @@ class Pages extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->helper(array('form', 'url'));
-                $this->load->model('contact_model');
         }
 
         public function view($page = 'home')
@@ -31,7 +30,7 @@ class Pages extends CI_Controller {
          */
         public function create() 
         {
-                
+                $this->load->model('contact_model');
                 $this->load->helper('form');
                 $this->load->library('form_validation');
                 // var_dump($_POST['name']);
