@@ -56,7 +56,7 @@ class Pages extends CI_Controller {
                     $cleanMsg = filter_var($msg, FILTER_SANITIZE_STRING);
 
                     $message = array(
-                            'name'    => $cleanMsg,
+                            'name'    => $cleanName,
                             'email'   => $cleanEmail,
                             'message' => $cleanMsg
                     );
