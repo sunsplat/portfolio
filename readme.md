@@ -2,11 +2,10 @@ Ellen Sun | Web Developer
 ======
 
 Using Codeigniter and Bootstrap to build my personal online portfolio.  
-`Bootstrap <http://www.getbootstrap.com>`_  
-`CodeIgniter
-<http://www.codeigniter.com/download>`_
+[Bootstrap](http://www.getbootstrap.com) 
+[CodeIgniter](http://www.codeigniter.com/download)
 
-
+*********
 My Summary
 ======
 
