@@ -11,7 +11,9 @@
         </div>
 
 			<?php endforeach; ?>
+
 			<div class="col-md-5">
+
 				<?php echo validation_errors(); ?>
 
 				<?php echo form_open('quotes/create'); ?>
@@ -26,11 +28,16 @@
 				  <div class="form-group">
 			    	<input type="submit" name="submit" value="Add new quote" />
 			    </div>
+
 				</form>
+
 			</div>
 		</div>
-	</div>
-<div>
+	</div> <!-- row quotes -->
+<div> <!-- container -->
 
+<div class="container">
         <p><a href="<?php echo site_url('quotes/'.$quotes_item['slug']); ?>">View more quotes.</a></p>
+</div>
+<div></div>
 
