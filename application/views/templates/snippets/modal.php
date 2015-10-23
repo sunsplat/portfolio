@@ -1,18 +1,18 @@
 	  <!-- top navigation bar -->
 		  <nav class="navbar navbar-inverse navbar-fixed-top">
 		  	<div class="container">
-		  		<div class="navbar-header">
+		  		<div class="navbar-header page-scroll">
 		  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" data-interval="2000">
 		  				<span class="sr-only">Toggle navigation</span>
 		  				<span class="icon-bar"></span>
 		  				<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 		  			</button>
-		  			<a class="navbar-brand" href="view">Ellen Sun</a>
+		  			<a class="navbar-brand page-scroll" href="view">Ellen Sun</a>
 		  		</div>
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
-							<li><a href="view#about">About</a></li>
+							<li><a class="page-scroll" href="view#about">About</a></li>
 							<li><a href="view#resume">Resume</a></li>
 							<li><a href="view#portfolio">Portfolio</a></li>
 		          <li><a href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
@@ -65,26 +65,26 @@
 		</div>
 
 
-				<!--// <script type="text/javascript">
-	 //    $(document).ready(function(){
-	 //        $('input#submit').click(function(){
-	 //            var data = $('#myModal').serialize('name: name, message: message, email: email');
-	 //            $.ajax({
-	 //                method: 'POST',
-	 //                cache: false,
-	 //                url: 'quotes/create',
-	 //                datatype: 'json',
-	 //                data: data,
-	 //                success: function(data){
-	 //                    alert('yay it worked');
-	 //                    $('#myModal').modal('hide');
-	 //                    $('input:text, textarea').val('');
-	 //                },
-	 //                failure: function(){
-	 //                    console.log('It didnt work');
-	 //                }
-	 //            });
+				<!-- <script type="text/javascript">
+	    $(document).ready(function(){
+	        $('input#submit').click(function(){
+	            var data = $('#myModal').serialize('name: name, message: message, email: email');
+	            $.ajax({
+	                method: 'POST',
+	                cache: false,
+	                url: 'quotes/create',
+	                datatype: 'json',
+	                data: data,
+	                success: function(data){
+	                    alert('yay it worked');
+	                    $('#myModal').modal('hide');
+	                    $('input:text, textarea').val('');
+	                },
+	                failure: function(){
+	                    console.log('It didnt work');
+	                }
+	            });
 	          
-	 //        });
-	 //    });
-		// </script> -->
+	        });
+	    });
+		</script> -->

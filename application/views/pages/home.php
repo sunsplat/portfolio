@@ -1,6 +1,10 @@
 
 <?php $this->load->view("templates/snippets/carousel.php"); ?>
 
+<div id="about">
+<?php $this->load->view("pages/about.php"); ?>
+</div>
+
 <a name="portfolio">
 <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
 </a>

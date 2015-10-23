@@ -13,5 +13,5 @@
 
   </head>
   
-  <body>
+  <body data-spy="scroll" data-target="navbar-fixed-top">
 
