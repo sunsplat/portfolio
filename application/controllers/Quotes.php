@@ -20,7 +20,7 @@ class Quotes extends CI_Controller {
 
         public function view($slug = NULL)
         {
-                $data['quotes_item'] = $this->news_model->get_quotes($slug);
+                $data['quotes_item'] = $this->quotes_model->get_quotes($slug);
 
                 if (empty($data['quotes_item']))
         {
