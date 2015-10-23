@@ -14,7 +14,7 @@ class Contact_model extends CI_Model {
                 return $query->result_array();
         	}
 
-	        $query = $this->db->get_where('contact', array('slug' => $slug));
+	        $query = $this->db->get_where('quote', array('slug' => $slug));
 	        return $query->row_array();
 		}
 
