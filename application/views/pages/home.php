@@ -1,5 +1,5 @@
 <!-- top navigation bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+<!--   <nav class="navbar navbar-inverse navbar-fixed-top">
   	<div class="container">
   		<div class="navbar-header">
   			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" data-interval="2000">
@@ -60,7 +60,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <?php $this->load->view("templates/snippets/carousel.php"); ?>
 
@@ -68,28 +68,28 @@
 <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
 </a>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('input#submit').click(function(){
-            var data = $('form').serialize();
-            $.ajax({
-                method: 'POST',
-                cache: false,
-                url: 'pages/create',
-                datatype: 'json',
-                data: data,
-                success: function(data){
-                    alert('yay it worked');
-                    $('#myModal').modal('hide');
-                    $('input:text, textarea').val('');
-                },
-                failure: function(){
-                    console.log('It didnt work');
-                }
-            });
+<!-- <script type="text/javascript">
+//     $(document).ready(function(){
+//         $('input#submit').click(function(){
+//             var data = $('form').serialize();
+//             $.ajax({
+//                 method: 'POST',
+//                 cache: false,
+//                 url: 'pages/create',
+//                 datatype: 'json',
+//                 data: data,
+//                 success: function(data){
+//                     alert('yay it worked');
+//                     $('#myModal').modal('hide');
+//                     $('input:text, textarea').val('');
+//                 },
+//                 failure: function(){
+//                     console.log('It didnt work');
+//                 }
+//             });
           
-        });
-    });
-</script>
+//         });
+//     });
+// </script>
 
 		
