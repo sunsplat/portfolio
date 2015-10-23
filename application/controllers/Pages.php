@@ -5,7 +5,6 @@ class Pages extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->helper(array('form', 'url'));
-                $this->load->library('form_validation');
                 $this->load->model('contact_model');
         }
 
@@ -33,6 +32,8 @@ class Pages extends CI_Controller {
         public function create() 
         {
                 
+                $this->load->helper('form');
+                $this->load->library('form_validation');
                 // var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
