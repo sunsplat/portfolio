@@ -8,7 +8,7 @@ class Pages extends CI_Controller {
         }
 
         public function view($page = 'home')
-	{
+	   {
                 if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
                 {
                         // Whoops, we don't have a page for that!
@@ -19,6 +19,7 @@ class Pages extends CI_Controller {
 
 
                 $this->load->view('templates/header', $data);
+                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/'.$page, $data);
                 $this->load->view('templates/footer', $data);
 
@@ -62,6 +63,9 @@ class Pages extends CI_Controller {
                     );
 
                     $this->contact_model->set_contact($message);
+                    // $this->load->library('session');
+                    // $this->session->set_flashdata('msg', 'Category added');
+                    redirect('pages/view');
                 }
         }
 
@@ -73,6 +77,7 @@ class Pages extends CI_Controller {
             $data['title'] = 'Quotes';
 
             $this->load->view('templates/header', $data);
+            $this->load->view('templates/snippets/modal.php', $data);
             $this->load->view('pages/quotes', $data);
             $this->load->view('templates/footer'); 
         }
