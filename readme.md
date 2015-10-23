@@ -1,6 +1,5 @@
-###################
 Ellen Sun | Web Developer
-###################
+======
 
 Using Codeigniter and Bootstrap to build my personal online portfolio.  
 `Bootstrap <http://www.getbootstrap.com>`_  
@@ -8,9 +7,8 @@ Using Codeigniter and Bootstrap to build my personal online portfolio.
 <http://www.codeigniter.com/download>`_
 
 
-*******************
 My Summary
-*******************
+======
 
 While working as Product Manager for Kingsoft in Beijing, China, I was entranced by the developers within my team for their ability to create beautiful, user-friendly applications. I decided to change my career path and actively pursue web development full-time. With my ambition, perseverance, and dedication, I have become an expert in HTML and CSS; knowledgeable in Ruby and Ruby on Rails; and proficient with JavaScript, jQuery, PHP, MySQL and the LAMP stack in MVC frameworks.  
   
@@ -24,14 +22,14 @@ Twitter: `@ms_ellerz <http://www.twitter.com/ms_ellerz>`_
 
 
 *********
-My Specialties
+##My Specialties
 *********
 
 LAMP stack, PHP, MySQL, Github, Heroku, Bitbucket, HTML, CSS, Ruby, Ruby on Rails, jQuery, Wordpress, JavaScript, Adobe Photoshop, Adobe Illustrator, Adobe Lightroom
 
 
 ***************
-Languages:
+##Languages:
 ***************
 
 *Mandarin Chinese (Professional-working level)  
