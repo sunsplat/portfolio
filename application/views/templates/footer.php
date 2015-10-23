@@ -1,8 +1,8 @@
+<div class="container">
 	<footer class="footer">
-			<div class="container">
         	<em>&copy; 2015</em> Ellen Sun
-    	</div>
   </footer>
+</div>
                 <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
         </body>
 </html>
