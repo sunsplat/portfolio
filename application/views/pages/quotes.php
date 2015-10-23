@@ -39,5 +39,5 @@
 <div class="container">
         <p><a href="<?php echo site_url('quotes/'.$quotes_item['slug']); ?>">View more quotes.</a></p>
 </div>
-<div></div>
+
 
