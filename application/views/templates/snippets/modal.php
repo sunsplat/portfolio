@@ -63,8 +63,6 @@
 		    </div> <!-- modal-content -->
 		  </div> <!-- modal-dialog -->
 		</div>
-
-
 				<!-- <script type="text/javascript">
 	    $(document).ready(function(){
 	        $('input#submit').click(function(){

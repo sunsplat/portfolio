@@ -22,14 +22,3 @@
 <div> <!-- container -->
 
 
-<script>
-	
-
-	$('button').click(function() {
-		var url = "quotes/callme" // the url to the controller and method
-		$.get({
-			url: url
-		})
-	})
-</script>
-

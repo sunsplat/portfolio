@@ -1,5 +1,7 @@
+<div class="resume">
 
-<?php $this->load->view("templates/snippets/carousel.php"); ?>
+<?php $this->load->view("templates/snippets/main.php"); ?>
+</div>
 
 <div id="about">
 <?php $this->load->view("pages/about.php"); ?>
@@ -31,6 +33,6 @@
           
 //         });
 //     });
-// </script>
+// </script> -->
 
 		
