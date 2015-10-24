@@ -14,8 +14,8 @@ class Quotes extends CI_Controller {
                 $data['title'] = 'Quotes';
 
                 $this->load->view('templates/header', $data);
-                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/quotes', $data);
+                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('templates/footer');
         }
 
@@ -31,8 +31,8 @@ class Quotes extends CI_Controller {
         $data['author'] = $data['quotes_item']['author'];
 
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/snippets/modal.php', $data);
         $this->load->view('quotes/index', $data);
+        $this->load->view('templates/snippets/modal.php', $data);
         $this->load->view('templates/footer');
         }
 
@@ -49,8 +49,8 @@ class Quotes extends CI_Controller {
             if ($this->form_validation->run() === FALSE)
             {
                 $this->load->view('templates/header', $data);
-                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('quotes/create');
+                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('templates/footer');
 
             }
