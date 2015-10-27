@@ -2,7 +2,7 @@
 		  <nav class="navbar navbar-inverse navbar-fixed-top">
 		  	<div class="container">
 		  		<div class="navbar-header page-scroll">
-		  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" data-interval="2000">
+		  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		  				<span class="sr-only">Toggle navigation</span>
 		  				<span class="icon-bar"></span>
 		  				<span class="icon-bar"></span>
@@ -13,15 +13,15 @@
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
 							<li><a class="page-scroll" href="view#about">About</a></li>
-							<li><a href="view#resume">Resume</a></li>
-							<li><a href="view#portfolio">Portfolio</a></li>
-		          <li><a href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
+							<li><a class="page-scroll" href="view#resume">Resume</a></li>
+							<li><a class="page-scroll" href="view#portfolio">Portfolio</a></li>
+		          <li><a class="page-scroll" href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right social">
-							<li><a href="http://www.github.com/sunspalt"><i class="fa fa-github">Github</i></a></li>
-							<li><a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter">@ms_ellerz</i></a></li>
-							<li><a href="http://www.linkedin.com/in/msellensun"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="http://www.github.com/sunspalt" target="_blank"><i class="fa fa-github"></i></a></li>
+							<li><a href="http://www.twitter.com/ms_ellerz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://www.linkedin.com/in/msellensun" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="mailto:ms.esun@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
 						</ul>
 					</div>
