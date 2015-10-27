@@ -5,12 +5,10 @@ class Pages extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->helper(array('form', 'url'));
-                $this->load->library('form_validation');
-                $this->load->model('contact_model');
         }
 
         public function view($page = 'home')
-    	{
+	   {
                 if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
                 {
                         // Whoops, we don't have a page for that!
@@ -21,6 +19,7 @@ class Pages extends CI_Controller {
 
 
                 $this->load->view('templates/header', $data);
+                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/'.$page, $data);
                 $this->load->view('templates/footer', $data);
 
@@ -32,7 +31,9 @@ class Pages extends CI_Controller {
          */
         public function create() 
         {
-                
+                $this->load->model('contact_model');
+                $this->load->helper('form');
+                $this->load->library('form_validation');
                 // var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
@@ -62,15 +63,23 @@ class Pages extends CI_Controller {
                     );
 
                     $this->contact_model->set_contact($message);
-
+                    // $this->load->library('session');
+                    // $this->session->set_flashdata('msg', 'Category added');
+                    redirect('pages/view');
                 }
+        }
 
-                //         $this->contact_model->set_contact();
-                //         $this->load->view('contact/success');
-                // }
-                // $this->contact_model->set_contact();
-                //         $this->load->view('contact/success');
+        public function quotes()
+        {
+        
+            $this->load->model('quotes_model');
+            $data['quotes'] = $this->quotes_model->get_quotes();
+            $data['title'] = 'Quotes';
 
+            $this->load->view('templates/header', $data);
+            $this->load->view('templates/snippets/modal.php', $data);
+            $this->load->view('pages/quotes', $data);
+            $this->load->view('templates/footer'); 
         }
 
 }
