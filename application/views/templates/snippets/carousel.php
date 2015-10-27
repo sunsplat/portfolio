@@ -17,7 +17,7 @@
     <div class="item">
       <img src="<?php echo base_url('assets/images/carousel-2.png'); ?>" alt="image-2" class="img-responsive center-block">
       <div class="carousel-caption">
-        <h2>About</h2>
+        <h1><?php echo $date = new DateTime('today'); ?></h1>
       </div>
     </div>
     <div class="item">
