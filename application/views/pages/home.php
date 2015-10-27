@@ -1,10 +1,10 @@
-<div class="resume">
-
-<?php $this->load->view("templates/snippets/main.php"); ?>
+<div id="carousel">
+	<?php $this->load->view("templates/snippets/carousel.php"); ?>
 </div>
 
-<div id="about">
-<?php $this->load->view("pages/about.php"); ?>
+<div id="resume"> 
+	<a name="resume"></a>
+<?php $this->load->view("templates/snippets/resume.php"); ?>
 </div>
 
 <div id="about">
@@ -15,8 +15,6 @@
   <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
 </div>
 
-<<<<<<< HEAD
-=======
 <!-- <script type="text/javascript">
 //     $(document).ready(function(){
 //         $('input#submit').click(function(){
@@ -40,6 +38,6 @@
 //         });
 //     });
 // </script> -->
->>>>>>> quotes
+
 
 		
