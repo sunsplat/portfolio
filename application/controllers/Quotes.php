@@ -61,9 +61,10 @@ class Quotes extends CI_Controller {
             }
         }
 
-        public function callme() 
+        public function get_random_quote() 
         {
             $this->load->modal('quotes_model');
             $data['quotes'] = $this->quotes_model->get_quotes();
+            
         }
 }
