@@ -1,6 +1,7 @@
 <div class="container">
 	<footer class="footer">
-        	<em>&copy; 2015</em> Ellen Sun
+        	<em>&copy; 2015</em> Ellen Sun | Last Updated: <?php $date = new DateTime();
+              echo date_format($date, 'Y M'); ?>
   </footer>
 </div>
         
