@@ -1,11 +1,41 @@
 body {
-	padding-top: 50px;
+	padding-top: 70px;
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+
+    /* top-nav-collapse affects height of navigation bar */
+    .top-nav-collapse {
+        padding: 0;
+    
+    }
+}
+
+section {
+	padding: 50px;
 }
 
 .navbar {
 	margin-bottom: 0px;
 }
 
+.navbar-inverse {
+	background-color: #0A000A;
+	color: #fff;
+}
+
+.navbar-brand {
+	color: #fff;
+}
 /* modifying bootstrap carousel items */
 
 .carousel .item {
@@ -66,7 +96,21 @@ body {
     height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #fff;
+    background: #009999;
+    color: #fff;
+}
+
+#resume {
+	padding-top: 100px;
+  padding-bottom: 100px;
+	background: #660066;
+	color: #D1B2D1;
+}
+
+.footer {
+	background: #853385;
+	color: #fff;
+	padding: 2px 0px;
 }
 
 /* Portfolio */
