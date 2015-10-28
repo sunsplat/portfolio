@@ -11,7 +11,7 @@
   <?php $this->load->view("pages/about.php"); ?>
 </div>
 
-<div name="portfolio">
+<div id="portfolio">
   <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
 </div>
 
