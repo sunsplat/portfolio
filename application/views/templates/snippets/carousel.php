@@ -17,7 +17,7 @@
     <div class="item">
       <img src="<?php echo base_url('assets/images/carousel-2.png'); ?>" alt="image-2" class="img-responsive center-block">
       <div class="carousel-caption">
-        <h1><?php echo $date = date_create_from_format('Y-m-d H:i:s'); ?></h1>
+        <h1></h1>
       </div>
     </div>
     <div class="item">
