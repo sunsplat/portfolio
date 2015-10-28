@@ -1,16 +1,105 @@
-	<div class="container">
-		<div class="row resume">
-			<div class="col-md-6 col-md-offset-3">
-				<h2>My Resume</h2>
-				<p> While working as Product Manager for Kingsoft in Beijing, China, I was entranced by the
-				developers within my team for their ability to create beautiful, user-friendly applications. After sampling some online courses with Codecademy and Code School, I fell in love and decided to change my career path, actively pursuing web development full-time.  With my ambition, perseverance, and dedication, I have become proficient in HTML and CSS; knowledgeable in Ruby and Ruby on Rails; and comfortable with JavaScript, jQuery, PHP, MySQL and the LAMP stack in MVC frameworks. </p>
+<div class="container">
+	<div class ="row">
+				<h1>My Resume</h1>
+	</div>
 
-				<p>Fully immersing myself in the Atlanta tech community, I regularly attend Meetups to learn new technologies and connect with others with similar passions. I have been able to use what I have learned to help other self-taught developers succeed and regularly lead the Atlanta group of FreeCodeCampers, an online full-stack bootcamp.</p>
+	<div class="row">
+		<div class="col-md-4">
+				<h2 class="center"><strong>Education & Skills</strong></h2>
+		</div>
 
-				<p>Bringing my ambition and passion for knowledge, my past professional work experience in team-oriented environments, and my adaptability gained from working abroad in international business settings, I am ready to contribute to an engineering team right away. </p>
+		<div class="col-md-6 col-md-offset-1">
+				<h3>Georgia Institute of Technology</h3>
+				<p>Bachelor of Science in Business Management & Marketing
+				</p>
+				<p>Online coursework:
+				Codecademy, General Assembly, Codermanual, Team Treehouse, Railstutorial.org, Code School</p>
 
-				<p>Github: http://github.com/sunsplat<br>
-				Twitter: @ms_ellerz</p>
+		</div>
+		<div class="col-md-3 col-md-offset-5">
+				<h4>Technical Languages:</h4>
+				<ul>
+					<li>HTML & CSS</li>
+						<ul>
+							<li>Bootstrap</li>
+							<li>SASS</li>
+						</ul>
+					<li>Ruby</li>
+					<li>Ruby on Rails</li>
+					<li>jQuery</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>SQL</li>
+				</ul>
+				<h4>Other Languages:</h4>
+				<ul>
+					<li>English: Native</li>
+					<li>Mandarin Chinese: Working professional</li>
+				</ul>
+		</div>
+		
+		<div class="col-md-3">
+				<h4>Technical Toolbox:</h4>
+				<ul>
+					<li>Microsoft Office Suite</li>
+						<ul>
+							<li>Microsoft Powerpoint</li>
+							<li>Microsoft Publisher</li>
+							<li>Microsoft Word</li>
+							<li>Microsoft Excel</li>
+						</ul>
+					<li>Adobe Creative Suite</li>
+						<ul>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Illustrator</li>
+							<li>Adobe Dreamweaver</li>
+						</ul>
+					<li>Adobe Lightroom</li>
+					<li>LAMP stack</li>
+				</ul>
 			</div>
 		</div>
-	</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<h2 class="center"><strong>Work Experience</strong></h2>
+			</div>
+			<div class="col-md-6 col-md-offset-1">
+				<h3>Kingsoft | Product Manager</h3>
+				<p><em>Improving Battery Doctor and Clean Master for the international market.</em>
+					<ul>
+						<li>Assisted HR in foreign recruitment, translation of important notices into English, and creating a more international work environment</li>
+						<li>Managed customer feedback and social media (G+, Facebook, Twitter)</li>
+						<li>Increased the Google Play star rating from 4.5 to 4.52 in two weeks</li>
+						<li>Increased Facebook ‘Likes’ from 7,000 to over 150,000 in 2 months</li>
+						<li>Acted as liaison between users/developers/designers/testers to improve UX</li>
+						<li>Increased US CTR (click-thru-rate) from 2.6% to 3.7% in 3 weeks</li> 
+						<li>Conducted user experience surveys and product usability tests</li>
+					</ul>
+				</p>
+
+				<h3>Pactera | Quality Assurance Manager</h3>
+					<p><em>Improving quality of language transcription and annotation projects leading to our 2012 award for most profitable department</em></p>
+					<ul>
+						<li>Was responsible for department training of new hires in domestic and international offices</li>
+						<li>Screened potential foreign applicants for language ability</li>
+					  <li>Interfaced with client and international offices to maintain quality consistency</li>
+					  <li>Improved business relations leading to customer loyalty and a $1.3 million contract</li>
+						<li>Improved voice recognition interface systems by increasing efficiency</li>
+					  <li>Created the first English Employee Handbook as well as the first English department training manual for full-time international employees</li>
+					 </ul>
+
+					<h3>FRS Human Resource LTD | Career Consultant</h3>
+					<p><em>Recruiting international professionals to expand their global business knowledge and experience in China.</em></p>
+					<ul>
+						<li>Generated job descriptions for multiple cases simultaneously</li>
+					  <li>Built strong relationships with Chinese clients through various media that lead to an increase of 10,000 RMB per month in sales</li>
+						<li>Created the first company employee training manual</li>
+					  <li>Drafted legal agreements and documents pertaining to contracts with candidates and clients</li>
+					  <li>Created and managed social media marketing on Linkedin.com, leading to an increase in company awareness and exposure</li>
+					  <li>Translated Chinese/English during important client-candidate face-to-face meetings</li>
+					</ul>
+					
+			</div>
+		</div>
+	</div>	
