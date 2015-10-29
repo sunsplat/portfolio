@@ -123,3 +123,7 @@ img.thumbs {
 .thumbnail {
 	border: none;
 }
+
+.title {
+	padding-bottom: 50px;
+}
