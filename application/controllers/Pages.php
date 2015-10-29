@@ -17,10 +17,6 @@ class Pages extends CI_Controller {
 
                 $data['title'] = ucfirst($page); // Capitalize the first letter
 
-                //$date_default_timezone_set('America/New_York');
-
-                $date = new DateTime();
-
                 $this->load->view('templates/header', $data);
                 $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/'.$page, $data);

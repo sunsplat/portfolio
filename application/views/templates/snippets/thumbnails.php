@@ -1,5 +1,11 @@
 <div class="container">
-		<div class="row">
+	<div class ="row">
+		<div class="col-md-3 col-md-offset-4 title">
+				<h1>My Portfolio</h1>
+		</div>
+	</div>
+<div class="container">
+	<div class="row">
 	  <div class="col-xs-6 col-md-3">
 	    <a href="https://stormy-ridge-1166.herokuapp.com/" class="thumbnail">
 	      <img class="thumbs" src="<?php echo base_url('assets/images/hapsit.jpg') ?>" alt="thumb">

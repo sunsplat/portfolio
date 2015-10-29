@@ -6,9 +6,8 @@
 </div>
 
         <script src="<?php echo base_url('assets/bootstrap/js/jquery-1.11.3.min.js'); ?>"></script>	
-        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	  		<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/bootstrap/js/pagescroll/jquery.easing.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/bootstrap/js/pagescroll/scrolling-nav.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
   </body>
 </html>

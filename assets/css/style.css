@@ -1,5 +1,5 @@
 body {
-	padding-top: 70px;
+	padding-top: 52px;
 }
 
 
@@ -105,6 +105,13 @@ section {
   padding-bottom: 100px;
 	background: #660066;
 	color: #D1B2D1;
+}
+
+#portfolio {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #470047;
+	color: #A366A3;
 }
 
 .footer {
