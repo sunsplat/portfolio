@@ -3,7 +3,7 @@
 </div>
 
 <div id="about">
-  <?php $this->load->view("pages/about.php"); ?>
+  <?php $this->load->view("templates/snippets/about.php"); ?>
 </div>
 
 <div id="portfolio">
