@@ -2,18 +2,17 @@
 	<?php $this->load->view("templates/snippets/carousel.php"); ?>
 </div>
 
-<section id="about">
+<div id="about">
   <?php $this->load->view("pages/about.php"); ?>
-</section>
+</div>
 
-<section id="portfolio">
+<div id="portfolio">
   <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
-</section>
+</div>
 
-<section id="resume"> 
-	<a name="resume"></a>
-<?php $this->load->view("templates/snippets/resume.php"); ?>
-</section>
+<div id="resume"> 
+	<?php $this->load->view("templates/snippets/resume.php"); ?>
+</div>
 
 
 <!-- <script type="text/javascript">
