@@ -67,13 +67,6 @@ section {
     width: 100%;
 }
 
-
-/* footer */
-.footer {
-	text-align: center;
-  width: 100%;
-}
-
 .center {
 	text-align: center;
 	margin: auto auto;
@@ -120,7 +113,7 @@ section {
 #about {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #009999;
+    background: #004131;
     color: #fff;
 }
 
@@ -128,7 +121,7 @@ section {
 #resume {
 	padding-top: 100px;
   padding-bottom: 100px;
-	background: #660066;
+	background: #4A4A25;
 	color: #D1B2D1;
 }
 
@@ -143,7 +136,7 @@ section {
 }
 
 .footer {
-	background: #853385;
+	background: #1F001F;
 	color: #fff;
 	padding: 1% 5%;
 	text-align: center;
@@ -170,7 +163,7 @@ img.thumbs {
 
 i {
 	padding: 1% 3%;
-	color: #BB00BB;
+	color: #2A002A;
 }
 
 i:hover {
@@ -183,7 +176,7 @@ i:hover {
 
 .carousel-caption {
     position: absolute;
-    top: 0;
+    top: 10px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
