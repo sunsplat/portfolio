@@ -1,4 +1,17 @@
 $(document).ready(function() {
+    $('a[href^="view#"]').bind('click.page-scroll', function(e) {
+        e.preventDefault();
+        var target = this.hash;
+
+    $('html, body').stop().animate({
+            'scrollTop': $(target).offset().top
+        }, 1500, 'easeInOutExpo', function()
+        {
+            window.location.hash = target;
+        });
+
+    });
+});
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
@@ -10,14 +23,14 @@ $(window).scroll(function() {
 });
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    })
-});
+// $(function() {
+//     $('a.page-scroll').bind('click', function(event) {
+//         var $anchor = $(this);
+//         $('html, body').stop().animate({
+//             'scrollTop': $($('a').attr('href')).offset().top
+//         }, 1500, 'easeInOutExpo');
+//         event.preventDefault();
+//     })
+// });
 
-});
+// });

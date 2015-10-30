@@ -21,7 +21,7 @@ body {
 }
 
 section {
-	padding: 50px;
+	padding: 100px;
 }
 
 .navbar {
@@ -91,6 +91,11 @@ section {
 	margin-left: 20%;
 }
 
+#quotemain {
+	background-color: #660066;
+	color: #fff;
+}
+
 /* About Section */
 #about {
     padding-top: 100px;
@@ -99,6 +104,7 @@ section {
     color: #fff;
 }
 
+/* Resume Section */
 #resume {
 	padding-top: 100px;
   padding-bottom: 100px;
@@ -106,17 +112,22 @@ section {
 	color: #D1B2D1;
 }
 
+/* Portfolio Section */
 #portfolio {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: #470047;
-	color: #A366A3;
+	background: #003399;
+	color: #77A4FF;
 }
 
 .footer {
 	background: #853385;
 	color: #fff;
 	padding: 2px 0px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 /* Portfolio */
