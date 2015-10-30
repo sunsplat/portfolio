@@ -1,4 +1,4 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="50000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -8,13 +8,13 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <a href="#"></a>
-        <div class="container">
-        </div>
-      <img src="<?php echo base_url('assets/images/carousel-1.png'); ?>" alt="contact" class="img-responsive center-block">
+    <div class="item active connect">
       <div class="carousel-caption">
-        <h2>Connect with me!</h2>
+        <div class="full-width">
+          <a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter fa-5x"></i></a>
+          <a href="http://www.github.com/sunsplat"><i class="fa fa-github fa-5x"></i></a>
+          <a href="http://www.linkedin.com/in/msellensun"><i class="fa fa-linkedin fa-5x"></i></a>
+        </div>
       </div>
     </div>
     <div class="item">
