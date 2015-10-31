@@ -68,7 +68,7 @@ section {
 /* modifying bootstrap carousel items */
 
 .carousel .item {
-  height: 100vh;
+  height: 95vh;
 }
 
 .item img {
