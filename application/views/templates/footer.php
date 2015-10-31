@@ -1,5 +1,5 @@
 <div class="container footer">
-        	<em>&copy; 2015</em> Ellen Sun | <?php $date = new DateTime();
+        	<em>&copy;</em> 2015 Ellen Sun | <?php $date = new DateTime();
               echo date_format($date, 'Y M D H:j'); ?>
 </div>
 
