@@ -1,7 +1,7 @@
 	<div class="container content">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<h2>About Me</h2>
+				<h2>ABOUT ME</h2>
 				<p> While working as Product Manager for Kingsoft in Beijing, China, I was entranced by the
 				developers within my team for their ability to create beautiful, user-friendly applications. After sampling some online courses with Codecademy and Code School, I fell in love and decided to change my career path, actively pursuing web development full-time.  With my ambition, perseverance, and dedication, I have become proficient in HTML and CSS; knowledgeable in Ruby and Ruby on Rails; and comfortable with JavaScript, jQuery, PHP, MySQL and the LAMP stack in MVC frameworks. </p>
 
