@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('a[href^="view#"]').bind('click.page-scroll', function(e) {
         e.preventDefault();
         var target = this.hash;
+        console.log(target);
 
     $('html, body').stop().animate({
             'scrollTop': $(target).offset().top
