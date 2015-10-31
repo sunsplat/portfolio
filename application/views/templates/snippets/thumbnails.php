@@ -1,7 +1,7 @@
 <div class="container content">
 	<div class ="row">
-		<div class="col-md-3 col-md-offset-4 title">
-				<h1>My Portfolio</h1>
+		<div class="col-md-4 col-md-offset-4 title">
+				<h1>MY PORTFOLIO</h1>
 		</div>
 	</div>
 
