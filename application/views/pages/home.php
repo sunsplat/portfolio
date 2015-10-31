@@ -1,4 +1,4 @@
-<div class="section" id="carousel">
+<div id="carousel">
 	<?php $this->load->view("templates/snippets/carousel.php"); ?>
 </div>
 
