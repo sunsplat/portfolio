@@ -11,9 +11,9 @@
 		  		</div>
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
-							<li><a class="page-scroll" href="view#about">About</a></li>
-							<li><a class="page-scroll" href="view#resume">Resume</a></li>
-							<li><a class="page-scroll" href="view#portfolio">Portfolio</a></li>
+							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#about'); ?>">About</a></li>
+							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#resume'); ?>">Resume</a></li>
+							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#portfolio'); ?>">Portfolio</a></li>
 		          <li><a class="page-scroll" href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>

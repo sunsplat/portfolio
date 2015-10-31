@@ -6,6 +6,7 @@ class Quotes extends CI_Controller {
                 parent::__construct();
                 $this->load->model('quotes_model');
                 $this->load->helper('url_helper');
+                $this->load->helper(array('form', 'url'));
         }
 
         public function index()
@@ -14,8 +15,8 @@ class Quotes extends CI_Controller {
                 $data['title'] = 'Quotes';
 
                 $this->load->view('templates/header', $data);
-                $this->load->view('pages/quotes', $data);
                 $this->load->view('templates/snippets/modal.php', $data);
+                $this->load->view('pages/quotes', $data);
                 $this->load->view('templates/footer');
         }
 
@@ -57,14 +58,9 @@ class Quotes extends CI_Controller {
             else
             {
                 $this->quotes_model->set_quotes();
+                $this->load->view('templates/header', $data);
                 $this->load->view('quotes/success');
+                $this->load->view('templates/footer');
             }
-        }
-
-        public function get_random_quote() 
-        {
-            $this->load->modal('quotes_model');
-            $data['quotes'] = $this->quotes_model->get_quotes();
-            
         }
 }
