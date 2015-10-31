@@ -1,7 +1,7 @@
 <div class="container content">
 	<div class ="row">
 		<div class="col-md-3 col-md-offset-4 title">
-				<h1>My Resume</h1>
+				<h1>MY RESUME</h1>
 		</div>
 	</div>
 
