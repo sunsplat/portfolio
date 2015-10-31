@@ -14,8 +14,8 @@ class Quotes extends CI_Controller {
                 $data['title'] = 'Quotes';
 
                 $this->load->view('templates/header', $data);
-                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/quotes', $data);
+                $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('templates/footer');
         }
 
@@ -24,15 +24,15 @@ class Quotes extends CI_Controller {
                 $data['quotes_item'] = $this->quotes_model->get_quotes($slug);
 
                 if (empty($data['quotes_item']))
-        {
+                {
                 show_404();
-        }
+                }
 
         $data['author'] = $data['quotes_item']['author'];
 
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/snippets/modal.php', $data);
         $this->load->view('quotes/index', $data);
+        $this->load->view('templates/snippets/modal.php', $data);
         $this->load->view('templates/footer');
         }
 
