@@ -13,7 +13,7 @@
 		<div class="center">
 			<a href="<?php echo site_url('pages/quotes'); ?>" class="quotebutton">View more quotes.</a></p>
 		</div>
-	<div> <!-- container -->
-</div>
+	</div> <!-- container -->
+</section>
 
 

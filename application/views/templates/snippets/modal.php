@@ -17,7 +17,7 @@
 		          <li><a class="page-scroll" href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
-						<ul class="nav navbar-nav navbar-right social">
+						<ul class="nav navbar-nav navbar-right">
 							<li><a href="http://www.github.com/sunspalt" target="_blank"><i class="fa fa-github"></i></a></li>
 							<li><a href="http://www.twitter.com/ms_ellerz" target="_blank"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="http://www.linkedin.com/in/msellensun" target="_blank"><i class="fa fa-linkedin"></i></a></li>
