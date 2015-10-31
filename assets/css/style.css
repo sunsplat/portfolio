@@ -4,13 +4,12 @@
 
 body {
 	margin: 0;
+	font-family: Lato, sans-serif;
 }
-
-
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -24,6 +23,29 @@ body {
     }
 }
 
+/* Navigation bar */
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	background-color: #FFF;
+	border-color: #1F001F;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #1F001F;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #1F001F;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	text-decoration: underline;
+	color: #1F001F;
+}
+
 /* Full Screen Sections */
 section {
 	padding: 100px;
@@ -31,7 +53,7 @@ section {
 	display: table;
 	margin: 0;
 	max-width: none;
-	height: 100vh;
+	height: 95vh;
 
 	/*&:nth-of-type(2n) {
 		background-color: #FE4B74;
@@ -43,23 +65,10 @@ section {
 	vertical-align: middle;
 }
 
-/* Navigation bar */
-.navbar {
-	margin-bottom: 0px;
-}
-
-.navbar-inverse {
-	background-color: #1F001F;
-	color: #fff;
-}
-
-.navbar-brand {
-	color: #fff;
-}
 /* modifying bootstrap carousel items */
 
 .carousel .item {
-  height: 500px;
+  height: 100vh;
 }
 
 .item img {
@@ -96,8 +105,8 @@ section {
 }
 
 .quotes {
-	border: 3px solid #BB00BB;
-	padding: 20px 20px;
+	border: 3px solid #FFF;
+	padding: 0px 20px;
 	text-align: center;
 	margin-top: 10%;
 	margin-right: 20%;
@@ -105,7 +114,7 @@ section {
 }
 
 #quotemain {
-	background-color: #660066;
+	background-color: #cc0066;
 	color: #fff;
 }
 
@@ -113,7 +122,8 @@ section {
 #about {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #004131;
+    /*background: #004131;*/
+    background-color: #98A889;
     color: #fff;
 }
 
@@ -121,8 +131,8 @@ section {
 #resume {
 	padding-top: 100px;
   padding-bottom: 100px;
-	background: #4A4A25;
-	color: #D1B2D1;
+	background: #98A889;
+	color: #fff;
 }
 
 /* Portfolio Section */
@@ -131,8 +141,8 @@ section {
 	padding-bottom: 100px;
 	padding-left: 5%;
 	padding-right: 5%;
-	background: #003399;
-	color: #77A4FF;
+	background: #FFF;
+	color: #7F8C6D;
 }
 
 .footer {
@@ -140,7 +150,8 @@ section {
 	color: #fff;
 	padding: 1% 5%;
 	text-align: center;
-	position: fixed;
+	position: absolute;
+	clear: both;
 	bottom: 0;
 	left: 0;
 	width: 100%;
