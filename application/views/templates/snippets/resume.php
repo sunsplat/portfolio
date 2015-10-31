@@ -1,6 +1,6 @@
 <div class="container content">
-	<div class ="row">
-		<div class="col-md-3 col-md-offset-4 title">
+	<div class ="row center">
+		<div class="col-md-4 col-md-offset-4 padBottom">
 				<h1>MY RESUME</h1>
 		</div>
 	</div>

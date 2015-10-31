@@ -1,6 +1,7 @@
 <div class="wrapper">
 		<section class="module parallax parallax-1">
 			      <div class="container center social">
+			      	<h1>ENGAGE</h1>
 		          <a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter fa-5x"></i></a>
 		          <a href="http://www.github.com/sunsplat"><i class="fa fa-github fa-5x"></i></a>
 		          <a href="http://www.linkedin.com/in/msellensun"><i class="fa fa-linkedin fa-5x"></i></a>

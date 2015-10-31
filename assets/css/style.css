@@ -107,7 +107,7 @@ section.module.parallax-1 {
 
 /* social links over image */
 div.social {
-	padding: 20% 20%;
+	padding: 25% 10%;
 }
 
 /* ===============================
@@ -199,7 +199,7 @@ img.thumbs {
 	border: none;
 }
 
-.title {
+.padBottom {
 	padding-bottom: 50px;
 }
 
