@@ -37,9 +37,9 @@ body {
 	color: #1F001F;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+/*.navbar-inverse .navbar-nav>li>a {
 	color: #1F001F;
-}
+}*/
 
 .navbar-inverse .navbar-nav>li>a:hover {
 	text-decoration: underline;
@@ -58,23 +58,6 @@ section {
 		background-color: #FE4B74;
 	}*/
 }
-
-/*.content {
-	display: table-cell;
-	vertical-align: middle;
-}
-*/
-/* modifying bootstrap carousel items */
-
-/*.carousel .item {
-  height: 95vh;
-}*/
-
-/*.image1 img {
-    min-height: 500px;
-    width: 100%;
-    background-size: auto;
-}*/
 
 section#home img {
 	width: 100%;
@@ -99,6 +82,14 @@ section.module.parallax-1 {
   background-image: url("../images/carousel-1.jpg");
 }
 
+section.module.parallax-2 {
+  background-image: url("../images/carousel-3.jpg");
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
 .center {
 	text-align: center;
 	margin: auto auto;
@@ -108,6 +99,15 @@ section.module.parallax-1 {
 /* social links over image */
 div.social {
 	padding: 25% 10%;
+	color: #B03B76;
+}
+
+i {
+	padding: 1% 3%;
+	color: #2A002A;
+}
+i:hover {
+	color: #B03B76;
 }
 
 /* ===============================
@@ -139,15 +139,17 @@ div.social {
 	padding: 0px 20px;
 	text-align: center;
 	margin-top: 10%;
-	margin-right: 20%;
-	margin-left: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
 	margin-bottom: 5%;
 }
 
 #quotemain {
-	background-color: #cc0066;
+	background-color: #B03B76;
 	color: #fff;
-	padding-top: 5%;
+	padding-top: 0%;
+	height: 93%;
+	overflow: hidden;
 }
 
 /* =============================
@@ -175,13 +177,13 @@ div.social {
 	padding-bottom: 100px;
 	padding-left: 5%;
 	padding-right: 5%;
-	background: #FFF;
-	color: #7F8C6D;
+	/*background: #B03B76; */
+	color: #FFFFFF;
 }
 
 .footer {
-	background: #1F001F;
-	color: #fff;
+	background: #FFFFFF;
+	color: #1F001F;
 	padding: 1% 5%;
 	text-align: center;
 	clear: both;
@@ -203,15 +205,6 @@ img.thumbs {
 
 .padBottom {
 	padding-bottom: 50px;
-}
-
-i {
-	padding: 1% 3%;
-	color: #2A002A;
-}
-
-i:hover {
-	color: #fff;
 }
 
 .connect {
