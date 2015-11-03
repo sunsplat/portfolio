@@ -40,7 +40,7 @@
 		      <div class="modal-body">
 		        
 	          <?php echo validation_errors(); ?>
-	          <?php echo form_open('pages/create'); ?>
+	          <?php echo form_open('pages/view'); ?>
 		          <div class="form-group">
 		            <label for="name" class="control-label">Name:</label>
 		            <input type="input" class="form-control" id="name" name="name">
@@ -57,7 +57,7 @@
 				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				        <input type="submit" id="submit" name="submit" class="btn btn-primary" value="Send Message" />
 		      		</div>
-		      	</form>
+		       	</form>
 		    	</div>
 		    </div> <!-- modal-content -->
 		  </div> <!-- modal-dialog -->
