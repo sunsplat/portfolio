@@ -32,7 +32,7 @@ class Pages extends CI_Controller {
         {
                 $this->load->model('contact_model');
                 $this->load->helper('form');
-                $this->load->library('form_validation');
+                $this->load->library(array('session', 'form_validation'));
                 var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
@@ -62,8 +62,8 @@ class Pages extends CI_Controller {
                     );
 
                     $this->contact_model->set_contact($message);
-                    // $this->load->library('session');
-                    // $this->session->set_flashdata('msg', 'Category added');
+
+                    //$this->session->set_flashdata('msg', 'Message sent.');
                     redirect('pages/view');
                 }
         }
