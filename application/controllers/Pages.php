@@ -11,7 +11,6 @@ class Pages extends CI_Controller {
 	   {
                 if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
                 {
-                        // Whoops, we don't have a page for that!
                         show_404();
                 }
 
@@ -33,7 +32,7 @@ class Pages extends CI_Controller {
                 $this->load->model('contact_model');
                 $this->load->helper('form');
                 $this->load->library(array('session', 'form_validation'));
-                var_dump($_POST['name']);
+                // var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
                 $this->form_validation->set_rules('message', 'Message', 'required');
@@ -43,7 +42,8 @@ class Pages extends CI_Controller {
 
                 if ($this->form_validation->run() == FALSE)
                 {
-                    echo validation_errors();
+                    $this->view();
+                    echo '<script type="text/javascript"> alert('. validation_errors() .'); </script>';
                 } 
                 else 
                 {
