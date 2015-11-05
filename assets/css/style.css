@@ -7,6 +7,9 @@ body {
 	font-family: Lato, sans-serif;
 }
 
+/* ================================
+			NAVBAR
+=================================*/
 @media(min-width:767px) {
     .navbar {
         padding: 10px 0;
@@ -46,7 +49,9 @@ body {
 	color: #1F001F;
 }
 
-/* Full Screen Sections */
+/* ================================
+ 				Full Screen Sections 
+================================*/
 section {
 	width: 100%;
 	display: table;
@@ -83,7 +88,7 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-  background-image: url("../images/carousel-3.jpg");
+  background-image: url("../images/carousel-1.jpg");
 }
 
 section.module:last-child {
