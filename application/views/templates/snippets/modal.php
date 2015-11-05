@@ -38,9 +38,8 @@
 		      </div> <!-- modal-header -->
 
 		      <div class="modal-body">
-		        
-	          <?php echo validation_errors(); ?>
-	          <?php echo form_open('pages/view'); ?>
+	          <?php echo form_open('pages/create'); ?>
+	          <!-- <?=$errorMsg?> -->
 		          <div class="form-group">
 		            <label for="name" class="control-label">Name:</label>
 		            <input type="input" class="form-control" id="name" name="name">
@@ -62,26 +61,3 @@
 		    </div> <!-- modal-content -->
 		  </div> <!-- modal-dialog -->
 		</div>
-				<!-- <script type="text/javascript">
-	    $(document).ready(function(){
-	        $('input#submit').click(function(){
-	            var data = $('#myModal').serialize('name: name, message: message, email: email');
-	            $.ajax({
-	                method: 'POST',
-	                cache: false,
-	                url: 'quotes/create',
-	                datatype: 'json',
-	                data: data,
-	                success: function(data){
-	                    alert('yay it worked');
-	                    $('#myModal').modal('hide');
-	                    $('input:text, textarea').val('');
-	                },
-	                failure: function(){
-	                    console.log('It didnt work');
-	                }
-	            });
-	          
-	        });
-	    });
-		</script> -->
