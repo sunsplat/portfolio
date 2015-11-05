@@ -7,6 +7,14 @@ body {
 	font-family: Lato, sans-serif;
 }
 
+a {
+	color: #2A002A;
+}
+
+a:hover {
+	color: #B03B76;
+}
+
 /* ================================
 			NAVBAR
 =================================*/
