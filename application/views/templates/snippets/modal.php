@@ -14,7 +14,6 @@
 							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#about'); ?>">About</a></li>
 							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#resume'); ?>">Resume</a></li>
 							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#portfolio'); ?>">Portfolio</a></li>
-		          <li><a class="page-scroll" href="<?php echo site_url('pages/quotes'); ?>">Quotes</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right social">
