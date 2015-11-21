@@ -18,7 +18,7 @@
 
 		<section id="portfolio" class="module parallax parallax-2">
 			<div class="container center">
-		  <?php $this->load->view("templates/snippets/thumbnails.php"); ?>
+		  <?php $this->load->view("templates/snippets/portfolio.php"); ?>
 		</div>
 		</section>
 </div>
