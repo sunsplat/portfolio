@@ -3,8 +3,10 @@
 			              echo date_format($date, 'Y M D H:jj'); ?>
 			</div>
 
-        <script src="<?php echo base_url('assets/bootstrap/js/jquery-1.11.3.min.js'); ?>"></script>	
+        <script src="<?php echo base_url('assets/js/jquery-1.11.3.min.js'); ?>"></script>	
         <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/pagescroll/jquery.easing.min.js'); ?>"></script>	
+        <script src="<?php echo base_url('assets/js/pagescroll/scrolling-nav.js'); ?>"></script>	       
 
   </body>
 </html>
