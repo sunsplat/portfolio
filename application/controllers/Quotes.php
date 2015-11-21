@@ -20,6 +20,20 @@ class Quotes extends CI_Controller {
                 $this->load->view('templates/footer');
         }
 
+        // From Pages.php portfolio project
+        // public function quotes()
+        // {
+        
+        //     $this->load->model('quotes_model');
+        //     $data['quotes'] = $this->quotes_model->get_quotes();
+        //     $data['title'] = 'Quotes';
+
+        //     $this->load->view('templates/header', $data);
+        //     $this->load->view('pages/quotes', $data);
+        //     $this->load->view('templates/snippets/modal.php', $data);
+        //     $this->load->view('templates/footer'); 
+        // }
+
         public function view($slug = NULL)
         {
                 $data['quotes_item'] = $this->quotes_model->get_quotes($slug);
