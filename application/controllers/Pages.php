@@ -4,7 +4,9 @@ class Pages extends CI_Controller {
         public function __construct()
         {
                 parent::__construct();
-                $this->load->helper(array('form', 'url'));
+                $this->load->model('pages_model');
+                $this->load->helper('form');
+                $this->load->library(array('session', 'form_validation'));
         }
 
         public function view($page = 'home')
@@ -29,9 +31,6 @@ class Pages extends CI_Controller {
          */
         public function create() 
         {
-                $this->load->model('contact_model');
-                $this->load->helper('form');
-                $this->load->library(array('session', 'form_validation'));
                 // var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
@@ -61,7 +60,7 @@ class Pages extends CI_Controller {
                             'message' => $cleanMsg
                     );
 
-                    $this->contact_model->set_contact($message);
+                    $this->pages_model->set_contact($message);
 
                     //$this->session->set_flashdata('msg', 'Message sent.');
                     redirect('pages/view');
@@ -71,8 +70,8 @@ class Pages extends CI_Controller {
         public function portfolio()
         {
         
-            $this->load->model('portfolio_model');
-            $data['portfolio'] = $this->portfolio_model->get_portfolio();
+            $this->load->model('pages_model');
+            $data['portfolio'] = $this->pages_model->get_portfolio();
             $data['title'] = 'Portfolio';
 
             $this->load->view('templates/header', $data);
