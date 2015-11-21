@@ -1,5 +1,5 @@
 <div class="wrapper">
-		<section class="module parallax parallax-1">
+		<section class="module parallax parallax-1" id="home">
 			      <div class="container center social">
 			      	<h1><strong>ENGAGE</strong></h1>
 		          <a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter fa-5x"></i></a>
