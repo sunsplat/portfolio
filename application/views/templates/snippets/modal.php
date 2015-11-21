@@ -7,13 +7,13 @@
 		  				<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 		  			</button>
-		  			<a class="navbar-brand page-scroll" href="view">Ellen Sun</a>
+		  			<a class="navbar-brand page-scroll" href="#home">Ellen Sun</a>
 		  		</div>
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
-							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#about'); ?>">About</a></li>
-							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#resume'); ?>">Resume</a></li>
-							<li><a class="page-scroll" href="<?php echo site_url('pages/view' . '#portfolio'); ?>">Portfolio</a></li>
+							<li><a class="page-scroll" href="#about">About</a></li>
+							<li><a class="page-scroll" href="#resume">Resume</a></li>
+							<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right social">
