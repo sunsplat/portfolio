@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('a[href^="view#"]').bind('click.page-scroll', function(e) {
+    $('a[href^="#"]').bind('click.page-scroll', function(e) {
         e.preventDefault();
         var target = this.hash;
         console.log(target);
