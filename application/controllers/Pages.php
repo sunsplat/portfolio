@@ -23,7 +23,7 @@ class Pages extends CI_Controller {
 
         }
         /** 
-         * This create function was copied from Contact.php controller
+         * For saving name, email, and message input from contact form modal.
          * 
          * @since Oct.17.2015
          */
@@ -68,16 +68,16 @@ class Pages extends CI_Controller {
                 }
         }
 
-        public function quotes()
+        public function portfolio()
         {
         
-            $this->load->model('quotes_model');
-            $data['quotes'] = $this->quotes_model->get_quotes();
-            $data['title'] = 'Quotes';
+            $this->load->model('portfolio_model');
+            $data['portfolio'] = $this->portfolio_model->get_portfolio();
+            $data['title'] = 'Portfolio';
 
             $this->load->view('templates/header', $data);
-            $this->load->view('pages/quotes', $data);
-            $this->load->view('templates/snippets/modal.php', $data);
+            $this->load->view('pages/portfolio', $data);
+            $this->load->view('templates/snippets/thumbnails.php', $data);
             $this->load->view('templates/footer'); 
         }
 
