@@ -1,4 +1,4 @@
-Ellen Sun | Web Developer
+[Ellen Sun | Web Developer](https://grim-plague-5208.herokuapp.com)
 ======
 
 Using Codeigniter and Bootstrap to build my personal online portfolio.  
