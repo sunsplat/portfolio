@@ -25,3 +25,13 @@
 	  </div>
 	</div>
 </div>
+
+<?php foreach ($portfolio_item as $portfolio_items): ?>
+
+        <h3><?php echo $portfolio_items['project_name']; ?></h3>
+        <div class="main">
+                <?php echo $portfolio_items['thumbnail']; ?>
+        </div>
+        <p><a href="<?php echo site_url($portfolio_items['link']); ?>">View article</a></p>
+
+<?php endforeach; ?>
