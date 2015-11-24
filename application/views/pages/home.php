@@ -18,10 +18,8 @@
 
 		<section id="portfolio" class="module parallax parallax-2">
 			<div class="container center">
-		  <?php $this->load->view("templates/snippets/portfolio.php"); ?>
-		</div>
-		</section>
-</div>
+
+		
 
 <!-- <div class="image1">
       <img src="<?php echo base_url('assets/images/carousel-1.jpg'); ?>" class="img-responsive">
