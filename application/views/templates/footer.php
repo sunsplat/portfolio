@@ -1,6 +1,10 @@
+			</div>
+					</section>
+			</div>
+			
 			<div class="container footer">
 			        	<em>&copy;</em> 2015 Ellen Sun | <?php $date = new DateTime();
-			              echo date_format($date, 'Y M D H:jj'); ?>
+			              echo date_format($date, 'Y M d D H:j A'); ?>
 			</div>
 
         <script src="<?php echo base_url('assets/js/jquery-1.11.3.min.js'); ?>"></script>	
