@@ -5,7 +5,7 @@ class Pages extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->model('pages_model');
-                $this->load->helper('form');
+                $this->load->helper(array('form', 'url'));
                 $this->load->library('form_validation');
         }
 
@@ -17,12 +17,13 @@ class Pages extends CI_Controller {
                 }
 
                 $data['title'] = 'Ellen Sun | ' . ucfirst($page); // Capitalize the first letter
+                // $data['portfolio'] = $this->pages_model->get_portfolio($link);
 
                 $this->load->view('templates/header', $data);
                 $this->load->view('templates/snippets/modal.php', $data);
                 $this->load->view('pages/'.$page, $data);
+                $this->portfolio();
                 $this->load->view('templates/footer', $data);
-
         }
         /** 
          * For saving name, email, and message input from contact form modal.
@@ -69,15 +70,14 @@ class Pages extends CI_Controller {
 
         public function portfolio()
         {
-        
-            $this->load->model('pages_model');
             $data['portfolio'] = $this->pages_model->get_portfolio();
-            $data['title'] = 'Portfolio';
+            
+            if(empty($data['portfolio'])) {
+                show_404();
+            }
 
-            $this->load->view('templates/header', $data);
-            $this->load->view('pages/portfolio', $data);
-            $this->load->view('templates/snippets/thumbnails.php', $data);
-            $this->load->view('templates/footer'); 
+            return $this->load->view('templates/snippets/portfolio.php', $data);
+
         }
 
 }
