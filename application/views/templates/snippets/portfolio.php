@@ -6,8 +6,8 @@
 	</div>
 
 	<div class="row">
-	  <div class="col-xs-6 col-md-4">
-	  	<?php foreach ($portfolio as $portfolio_item): ?>
+	  <?php foreach ($portfolio as $portfolio_item): ?>
+	  	<div class="col-xs-6 col-md-4">
 	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
 
         <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">
@@ -16,9 +16,10 @@
         
         <p><a href="<?php echo $portfolio_item['source']; ?>">View Source Code</a></p>
 
-			<?php endforeach; ?>
+      </div>
+		<?php endforeach; ?>
 	    
-		</div>
+		
 	</div>
 </div>
 
