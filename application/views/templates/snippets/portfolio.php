@@ -9,14 +9,16 @@
 	  <div class="col-xs-6 col-md-4">
 	  	<?php foreach ($portfolio as $portfolio_item): ?>
 	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
-	  		<div class="main">
-                <img src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
-        </div>
+
+        <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">
+        	<img class="thumbs" src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
+        </a>
         
-        <p><a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">View Demo</a></p>
+        <p><a href="<?php echo $portfolio_item['source']; ?>">View Source Code</a></p>
 
 			<?php endforeach; ?>
 	    
+		</div>
 	</div>
 </div>
 
