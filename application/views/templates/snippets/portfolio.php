@@ -7,31 +7,20 @@
 
 	<div class="row">
 	  <div class="col-xs-6 col-md-4">
-	    <a href="https://stormy-ridge-1166.herokuapp.com/" class="thumbnail">
-	      <img class="thumbs" src="<?php echo base_url('assets/images/hapsit.jpg') ?>" alt="thumb">
-	    </a>
-	    <a class="center" href="https://github.com/sunsplat/simplecode_saas">Source Code</a>
-	  </div>
-	  <div class="col-xs-6 col-md-4">
-	    <a href="https://tts2.herokuapp.com/" class="thumbnail">
-	      <img class="thumbs" src="<?php echo base_url('assets/images/movielist.jpg') ?>" alt="...">
-	    </a>
-	    <a class="center" href="https://github.com/sunsplat/tts">Source Code</a>
-	  </div>
-	  <div class="col-xs-6 col-md-4">
-	    <a href="#" class="thumbnail">
-	      <img src="<?php echo base_url('assets/images/thumb192x200.png') ?>" alt="...">
-	    </a>
-	  </div>
+	  	<?php foreach ($portfolio as $portfolio_item): ?>
+	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
+	  		<div class="main">
+                <img src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
+        </div>
+        
+        <p><a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">View Demo</a></p>
+
+			<?php endforeach; ?>
+	    
 	</div>
 </div>
 
-<?php foreach ($portfolio_item as $portfolio_items): ?>
 
-        <h3><?php echo $portfolio_items['project_name']; ?></h3>
-        <div class="main">
-                <?php echo $portfolio_items['thumbnail']; ?>
-        </div>
-        <p><a href="<?php echo site_url($portfolio_items['link']); ?>">View article</a></p>
 
-<?php endforeach; ?>
+        
+  
