@@ -7,7 +7,7 @@
 
 	<div class="row">
 	  <?php foreach ($portfolio as $portfolio_item): ?>
-	  	<div class="col-xs-6 col-md-4">
+	  	<div class="col-md-4">
 	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
 
         <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">
