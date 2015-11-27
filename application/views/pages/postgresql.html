@@ -1,0 +1,18 @@
+CREATE TABLE portfolio (
+id SERIAL NOT NULL PRIMARY KEY,
+project_name VARCHAR(155) NOT NULL,
+link VARCHAR(255),
+source VARCHAR(255) DEFAULT NULL,
+image_url VARCHAR(155)
+);
+
+INSERT INTO portfolio (project_name, link, source, image_url)
+VALUES ('HapSit', 'http://hapsit.herokuapp.com', 'http://www.github.com/sunsplat/simplecode_saas', 'hapsit.jpg');
+
+INSERT INTO portfolio (
+project_name, link, source, image_url)
+VALUES ('This Is Eric Sun', 'http://sunsplat.bitbucket.org/', NULL, 'hearmeout.jpg');
+
+INSERT INTO portfolio (
+project_name, link, source, image_url)
+VALUES ('Movies', 'https://tts2.herokuapp.com/')
