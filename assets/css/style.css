@@ -18,6 +18,7 @@ a:hover {
 h2 {
 	font-size: 5em;
 }
+
 /* ================================
 			NAVBAR
 =================================*/
@@ -59,6 +60,14 @@ h2 {
 	border-color: #1F001F;
 }
 
+.navbar-inverse .navbar-brand {
+	color: #1F001F;
+}
+
+.navbar-inverse a.navbar-brand:hover {
+	color: #B03B76;
+}
+
 .navbar-inverse .navbar-nav>li>a:hover {
 	text-decoration: underline;
 	color: #1F001F;
@@ -77,6 +86,7 @@ h2 {
 	display: block;
 	width: 10%;
 }
+
 /* ================================
  				Home Section Text
 ================================*/
@@ -95,6 +105,21 @@ p.title {
 	position: relative;
 	top: -50px;
 	letter-spacing: 30px;
+}
+
+/* social links over image */
+div.social {
+	padding: 20% 10%;
+	color: #B03B76;
+}
+
+i {
+	padding: 1% 3%;
+	color: #2A002A;
+}
+
+i:hover {
+	color: #B03B76;
 }
 
 /* ================================
@@ -149,20 +174,6 @@ section.module:last-child {
 	padding: 0px 5px;
 }
 
-/* social links over image */
-div.social {
-	padding: 20% 10%;
-	color: #B03B76;
-}
-
-i {
-	padding: 1% 3%;
-	color: #2A002A;
-}
-i:hover {
-	color: #B03B76;
-}
-
 /* =============================
           Section Styles
 ==============================*/
@@ -174,6 +185,9 @@ i:hover {
     width: 100%;
 }
 
+.about a:hover {
+	color: #000;
+}
 /* Resume Section */
 #resume {
 	padding-top: 100px;
