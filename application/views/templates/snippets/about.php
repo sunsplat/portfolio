@@ -10,7 +10,7 @@
 
 				<p>Bringing my ambition and passion for knowledge, my past professional work experience in team-oriented environments, and my adaptability gained from working abroad in international business settings, I am ready to contribute to an engineering team right away. </p>
 
-				<p>Github: <a href="http://github.com/sunsplat">github.com/sunsplat</a><br>
+				<p class="about">Github: <a href="http://github.com/sunsplat">github.com/sunsplat</a><br>
 				Twitter: <a href="http://www.twitter.com/ms_ellerz">@ms_ellerz</a></p>
 			</div>
 		</div>
