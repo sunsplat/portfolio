@@ -1,13 +1,13 @@
 <div class="container content">
 	<div class ="row center">
-		<div class="col-md-4 col-md-offset-4 padBottom">
-				<h1>MY RESUME</h1>
+		<div class="col-md-6 col-md-offset-3 padBottom">
+				<h2>MY RESUME</h2>
 		</div>
 	</div>
 
 		<div class="row">
 			<div class="col-md-4">
-				<h2 class="center"><strong>Work Experience</strong></h2>
+				<h1 class="center"><strong>Work Experience</strong></h1>
 			</div>
 			<div class="col-md-6 col-md-offset-1">
 				<h3><strong>LAMP Camp | Developer</strong></h3>
@@ -20,7 +20,7 @@
 						<li>Applied Agile project management principles and operated in a full Scrum shop</li>
 					</ul>
 				</p>
-
+				<hr>
 				<h3><strong>Kingsoft | Product Manager</strong></h3>
 				<p><em>Improving Battery Doctor and Clean Master for the international market.</em>
 					<ul>
@@ -33,7 +33,7 @@
 						<li>Conducted user experience surveys and product usability tests</li>
 					</ul>
 				</p>
-
+				<hr>
 				<h3><strong>Pactera | Quality Assurance Manager</strong></h3>
 					<p><em>Improving quality of language transcription and annotation projects leading to our 2012 award for most profitable department</em></p>
 					<ul>
@@ -44,8 +44,8 @@
 						<li>Improved voice recognition interface systems by increasing efficiency</li>
 					  <li>Created the first English Employee Handbook as well as the first English department training manual for full-time international employees</li>
 					 </ul>
-
-					<h3><strong>FRS Human Resource LTD | Career Consultant</strong></h3>
+				<hr>	 
+				<h3><strong>FRS Human Resource LTD | Career Consultant</strong></h3>
 					<p><em>Recruiting international professionals to expand their global business knowledge and experience in China.</em></p>
 					<ul>
 						<li>Generated job descriptions for multiple cases simultaneously</li>
@@ -55,13 +55,13 @@
 					  <li>Created and managed social media marketing on Linkedin.com, leading to an increase in company awareness and exposure</li>
 					  <li>Translated Chinese/English during important client-candidate face-to-face meetings</li>
 					</ul>
-					
+				<hr>	
 			</div>
 		</div>
 				
 		<div class="row">
 			<div class="col-md-4">
-				<h2 class="center"><strong>Education & Skills</strong></h2>
+				<h1 class="center"><strong>Education & Skills</strong></h1>
 			</div>
 
 			<div class="col-md-6 col-md-offset-1">
@@ -73,19 +73,20 @@
 
 			</div>
 			<div class="col-md-3 col-md-offset-5">
-				<h4>Technical Languages:</h4>
+				<h3><strong>Technical Languages:</strong></h3>
 				<ul>
-					<li>HTML & CSS</li>
-						<ul>
-							<li>Bootstrap</li>
-							<li>SASS</li>
-						</ul>
 					<li>Ruby</li>
 					<li>Ruby on Rails</li>
 					<li>jQuery</li>
 					<li>JavaScript</li>
 					<li>PHP</li>
-					<li>SQL</li>
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+					<li>HTML & CSS</li>
+						<ul>
+							<li>Bootstrap</li>
+							<li>SASS</li>
+						</ul>
 				</ul>
 				<h4>Other Languages:</h4>
 				<ul>
@@ -95,8 +96,11 @@
 			</div>
 		
 			<div class="col-md-3">
-				<h4>Technical Toolbox:</h4>
+				<h3><strong>Technical Toolbox:</strong></h3>
 				<ul>
+					<li>Version Control - Git</li>
+					<li>JIRA</li>
+					<li>Heroku</li>
 					<li>Microsoft Office Suite</li>
 						<ul>
 							<li>Microsoft Powerpoint</li>
@@ -111,7 +115,6 @@
 							<li>Adobe Dreamweaver</li>
 						</ul>
 					<li>Adobe Lightroom</li>
-					<li>LAMP stack</li>
 				</ul>
 			</div>
 		</div>
