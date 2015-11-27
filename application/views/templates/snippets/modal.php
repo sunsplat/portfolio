@@ -9,8 +9,8 @@
 		  			</button>
 		  			<a class="navbar-brand page-scroll" href="#home">Ellen Sun</a>
 		  		</div>
-		  		<div class="collapse navbar-collapse">
-						<ul class="nav navbar-nav" id="top-nav">
+		  		<div class="">
+						<ul class="nav navbar-nav collapse navbar-collapse" id="top-nav">
 							<li><a class="btn page-scroll" href="#about">About</a></li>
 							<li><a class="btn page-scroll" href="#resume">Resume</a></li>
 							<li><a class="btn page-scroll" href="#portfolio">Portfolio</a></li>
@@ -21,7 +21,7 @@
 							<li><a href="http://www.twitter.com/ms_ellerz" target="_blank"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="http://www.linkedin.com/in/msellensun" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="mailto:ms.esun@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
-						</ul>
+					</ul>
 					</div>
 				</nav>
 		</div>
