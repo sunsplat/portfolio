@@ -9,7 +9,7 @@
 		  			</button>
 		  			<a class="navbar-brand page-scroll" href="#home">Ellen Sun</a>
 		  		</div>
-		  		<div class="">
+		  		<div>
 						<ul class="nav navbar-nav collapse navbar-collapse" id="top-nav">
 							<li><a class="btn page-scroll" href="#about">About</a></li>
 							<li><a class="btn page-scroll" href="#resume">Resume</a></li>
