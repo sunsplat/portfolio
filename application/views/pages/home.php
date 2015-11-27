@@ -4,7 +4,6 @@
 
 							<h1 class="name">ELLEN SUN</h1>
 							<p class="title">web developer</p>
-			      	<h1><strong>ENGAGE</strong></h1>
 		          <a href="http://www.twitter.com/ms_ellerz"><i class="fa fa-twitter fa-5x"></i></a>
 		          <a href="http://www.github.com/sunsplat"><i class="fa fa-github fa-5x"></i></a>
 		          <a href="http://www.linkedin.com/in/msellensun"><i class="fa fa-linkedin fa-5x"></i></a>
