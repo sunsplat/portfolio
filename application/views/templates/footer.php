@@ -1,6 +1,6 @@
 			</div>
 					</section>
-			</div>
+		</div> <!-- wrapper -->
 			
 			<div class="container footer">
 			        	<em>&copy;</em> 2015 Ellen Sun | <?php $date = new DateTime();
