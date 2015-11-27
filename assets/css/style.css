@@ -32,6 +32,17 @@ a:hover {
         padding: 0;
     
     }
+
+    .navbar-toggle {
+		background-color: #FFF;
+		border: 1px solid #1F001F;
+		color: #1F001F;
+		}
+
+		.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+			color: #FFF;
+			background-color: #1F001F;
+		}
 }
 
 /* Navigation bar */
@@ -39,22 +50,23 @@ a:hover {
 	margin-bottom: 0px;
 }
 
-.navbar-default {
+.navbar-inverse {
 	background-color: #FFF;
 	border-color: #1F001F;
 }
 
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-nav>li>a:hover {
+	text-decoration: underline;
 	color: #1F001F;
 }
 
-/*.navbar-inverse .navbar-nav>li>a {
-	color: #1F001F;
-}*/
+.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: #1F001F;
+}
 
-.navbar-default .navbar-nav>li>a:hover {
-	text-decoration: underline;
-	color: #1F001F;
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #1F001F;
+	color: #fff;
 }
 
 /* ================================
