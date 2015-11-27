@@ -9,8 +9,8 @@
 		  			</button>
 		  			<a class="navbar-brand page-scroll" href="#home">Ellen Sun</a>
 		  		</div>
-		  		<div>
-						<ul class="nav navbar-nav collapse navbar-collapse" id="top-nav">
+		  		<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav" id="top-nav">
 							<li><a class="btn page-scroll" href="#about">About</a></li>
 							<li><a class="btn page-scroll" href="#resume">Resume</a></li>
 							<li><a class="btn page-scroll" href="#portfolio">Portfolio</a></li>
