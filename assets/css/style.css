@@ -46,6 +46,7 @@ h2 {
 			color: #FFF;
 			background-color: #1F001F;
 		}
+
 }
 
 /* Navigation bar */
@@ -63,19 +64,19 @@ h2 {
 	color: #1F001F;
 }
 
-a.navbar-brand:hover {
-	color: #B03B76;
-}
-
-.icon-bar {
-		background-color: #1F001F;
-}
-
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
 	background-color: #1F001F;
 	color: #fff;
 }
 
+.nav>li {
+	float: left;
+}
+
+.nav>li>a {
+	display: block;
+	width: 10%;
+}
 /* ================================
  				Home Section Text
 ================================*/
