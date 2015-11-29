@@ -75,7 +75,7 @@ p {
 }
 
 .navbar-inverse a.navbar-brand:hover {
-	color: #B03B76;
+	color: #B03B76 !important;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
