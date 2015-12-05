@@ -38,14 +38,14 @@
 
 		      <div class="modal-body">
 	          <?php echo form_open('pages/create'); ?>
-	          <!-- <?=$errorMsg?> -->
+	          <!-- <?= $errorMsg ?> -->
 		          <div class="form-group">
 		            <label for="name" class="control-label">Name:</label>
-		            <input type="input" class="form-control" id="name" name="name">
+		            <input type="text" class="form-control required" id="name" name="name">
 		          </div>
 		          <div class="form-group">
 		            <label for="email" class="control-label">Email:</label>
-		            <input type="text" class="form-control" id="email" name="email">
+		            <input type="text" class="form-control required" id="email" name="email">
 		          </div>
 		          <div class="form-group">
 		            <label for="message" class="control-label">Message:</label>
