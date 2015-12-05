@@ -45,6 +45,7 @@ class Pages extends CI_Controller {
                     // $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
                     // echo validation_errors('<div class="error">', '</div>');
                     echo '<script type="text/javascript"> alert'. validation_errors('("', '");') .'</script>';
+                    // redirect('pages/view');
                 } 
                 else 
                 {
