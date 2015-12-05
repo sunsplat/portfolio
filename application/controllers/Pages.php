@@ -32,7 +32,6 @@ class Pages extends CI_Controller {
          */
         public function create() 
         {
-                // var_dump($_POST['name']);
                 $this->form_validation->set_rules('name', 'Name', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
                 $this->form_validation->set_rules('message', 'Message', 'required');
@@ -43,7 +42,9 @@ class Pages extends CI_Controller {
                 if ($this->form_validation->run() == FALSE)
                 {
                     $this->view();
-                    echo '<script type="text/javascript"> alert('. validation_errors() .'); </script>';
+                    // $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+                    // echo validation_errors('<div class="error">', '</div>');
+                    echo '<script type="text/javascript"> alert'. validation_errors('("', '");') .'</script>';
                 } 
                 else 
                 {
