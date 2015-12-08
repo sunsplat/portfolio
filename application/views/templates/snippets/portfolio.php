@@ -10,11 +10,11 @@
 	  	<div class="col-md-4">
 	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
 
-        <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail">
+        <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail" target="_blank">
         	<img class="thumbs" src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
         </a>
         
-        <p><a href="<?php echo $portfolio_item['source']; ?>">View Source Code</a></p>
+        <p><?php echo $portfolio_item['technologies']; ?></p>
 
       </div>
 		<?php endforeach; ?>
