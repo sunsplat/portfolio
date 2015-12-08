@@ -18,7 +18,7 @@
 			<?php $this->load->view("templates/snippets/resume.php"); ?>
 		</section>
 
-		<section id="portfolio" class="module parallax parallax-2">
+		<section id="portfolio">
 			<div class="container center">
 
 		
