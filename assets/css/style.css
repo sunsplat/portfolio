@@ -187,10 +187,6 @@ section.module.parallax-1 {
   background-image: url("../images/carousel-1.jpg");
 }
 
-section.module.parallax-2 {
-  background-image: url("../images/carousel-1.jpg");
-}
-
 section.module:last-child {
   margin-bottom: 0;
 }
@@ -229,7 +225,7 @@ section.module:last-child {
 	padding-bottom: 100px;
 	padding-left: 5%;
 	padding-right: 5%;
-	/*background: #2A002A; */
+	background: #6c6254; 
 	color: #FFFFFF;
 }
 

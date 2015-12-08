@@ -34,7 +34,8 @@ class Pages_model extends CI_Model
 				'link' => $link,
 				'source' => $this->input->post('source'),
 				'image_url' => $img_url->input->post('image_url'),
-				'thumbnail' => $this->input->post('thumbnail')
+				'thumbnail' => $this->input->post('thumbnail'),
+				'technologies' => $this->input->post('technologies')
 				);
 
 			return $this->db->insert('portfolio', $data);
