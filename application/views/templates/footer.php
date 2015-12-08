@@ -4,7 +4,7 @@
 			
 			<div class="container footer">
 			        	<em>&copy;</em> 2015 Ellen Sun | <?php $date = new DateTime();
-			              echo date_format($date, 'Y M d D H:j A'); ?> | Built with Codeigniter, Bootstrap
+			              echo date_format($date, 'Y M d D H:j A'); ?> | Built with Codeigniter
 			</div>
 
         <script src="<?php echo base_url('assets/js/jquery-1.11.3.min.js'); ?>"></script>	
