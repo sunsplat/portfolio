@@ -80,7 +80,7 @@ p {
 
 .navbar-inverse .navbar-nav>li>a:hover {
 	text-decoration: underline;
-	color: #1F001F;
+	color: #1F001F !important;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
