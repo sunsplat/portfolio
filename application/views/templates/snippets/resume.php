@@ -1,9 +1,9 @@
-<div class="container content">
-	<div class ="row center">
-		<div class="col-md-6 col-md-offset-3 padBottom">
-				<h2>MY RESUME</h2>
+	<div class="container content">
+		<div class ="row center">
+			<div class="col-md-6 col-md-offset-3 padBottom">
+					<h2>MY RESUME</h2>
+			</div>
 		</div>
-	</div>
 
 		<div class="row">
 			<div class="col-md-4">
@@ -11,18 +11,17 @@
 			</div>
 			<div class="col-md-6 col-md-offset-1">
 				<h3><strong>LAMP Camp | Developer</strong></h3>
-				<p><em>Building enterprise-level applications with PHP, MySQL, Javascript and much more.</em>
+				<p><em>Designing and developing application solutions for supply chain with PHP, MySQL, JavaScript</em>
 					<ul>
-						<li>Developed the best possible application solutions for ongoing business needs</li>
-						<li>Used JIRA to plan, track, and release great software while solving challenges and building applications with fellow developers</li> 
-						<li>Deployed projects using Git control in a collaborative development environment; tested applications and code with the latest methods and standards</li>
-						<li>Used an MVC framework to build and release enterprise-level applications in a timely and efficient fashion</li>
-						<li>Applied Agile project management principles and operated in a full Scrum shop</li>
+						<li>Designed a user interface with back‐end to correct mis‐SKUed stock items and add  corrected relationships to the inventory database</li>
+						<li>Tested, de‐bugged and redesigned a Manual Sales Order form for point‐of‐sale use that  connected to the CRM and inventory management system</li> 
+						<li>Developed and implemented a workflow management process to handle complex orders  and customers</li>
+						<li>Deployed LAMP Stack and JavaScript projects using Git control in a collaborative SCRUM  development environment; manually tested applications and code reviewed with the latest  methods and standards</li>
 					</ul>
 				</p>
 				<hr>
 				<h3><strong>Kingsoft | Product Manager</strong></h3>
-				<p><em>Improving Battery Doctor and Clean Master for the international market.</em>
+				<p><em>Improving Battery Doctor and Clean Master for the international market</em>
 					<ul>
 						<li>Assisted HR in foreign recruitment, translation of important notices into English, and creating a more international work environment</li>
 						<li>Managed customer feedback and social media (G+, Facebook, Twitter)</li>
@@ -46,7 +45,7 @@
 					 </ul>
 				<hr>	 
 				<h3><strong>FRS Human Resource LTD | Career Consultant</strong></h3>
-					<p><em>Recruiting international professionals to expand their global business knowledge and experience in China.</em></p>
+					<p><em>Recruiting international professionals to expand their global business knowledge and experience in China</em></p>
 					<ul>
 						<li>Generated job descriptions for multiple cases simultaneously</li>
 					  <li>Built strong relationships with Chinese clients through various media that lead to an increase of 10,000 RMB per month in sales</li>

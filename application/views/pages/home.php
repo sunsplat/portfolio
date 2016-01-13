@@ -10,29 +10,14 @@
 		        </div>
 		</section>
 
-		<section id="portfolio">
-			<div class="container center">
-				<?php $this->load->view("templates/snippets/portfolio.php"); ?>
-			</div>
-		</section>
-
 		<section id="about">
 		  <?php $this->load->view("templates/snippets/about.php"); ?>
 		</section>
 
 		<section id="resume"> 
 			<?php $this->load->view("templates/snippets/resume.php"); ?>
+		</section>
 
-
-		
-
-		
-
-<!-- <div class="image1">
-      <img src="<?php echo base_url('assets/images/carousel-1.jpg'); ?>" class="img-responsive">
-      <div class="carousel-caption">
-         -->
-
-
-
+		<section id="portfolio">
+			<div class="container center">
 		
