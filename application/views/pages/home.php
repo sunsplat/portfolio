@@ -10,16 +10,19 @@
 		        </div>
 		</section>
 
+		<section id="portfolio">
+			<div class="container center">
+		</section>
+
 		<section id="about">
 		  <?php $this->load->view("templates/snippets/about.php"); ?>
 		</section>
 
 		<section id="resume"> 
 			<?php $this->load->view("templates/snippets/resume.php"); ?>
-		</section>
 
-		<section id="portfolio">
-			<div class="container center">
+
+		
 
 		
 
