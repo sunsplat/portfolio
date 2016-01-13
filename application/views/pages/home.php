@@ -12,6 +12,8 @@
 
 		<section id="portfolio">
 			<div class="container center">
+				<?php $this->load->view("templates/snippets/portfolio.php"); ?>
+			</div>
 		</section>
 
 		<section id="about">

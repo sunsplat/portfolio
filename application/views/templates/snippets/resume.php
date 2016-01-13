@@ -65,15 +65,16 @@
 			</div>
 
 			<div class="col-md-6 col-md-offset-1">
+				<h3><strong>Free Code Camp</strong></h3>
+				<p>Full Stack Web Development<br>
+					 Computer Software Engineering</p>
 				<h3><strong>Georgia Institute of Technology</strong></h3>
 				<p>Bachelor of Science in Business Management & Marketing
 				</p>
-				<p>Online coursework:
-				Codecademy, General Assembly, Codermanual, Team Treehouse, Railstutorial.org, Code School</p>
-
 			</div>
 			<div class="col-md-3 col-md-offset-5">
-				<h3><strong>Technical Languages:</strong></h3>
+				<h3><strong>Languages:</strong></h3>
+				<h4>Technical:</h4>
 				<ul>
 					<li>Ruby</li>
 					<li>Ruby on Rails</li>
