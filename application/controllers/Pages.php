@@ -64,10 +64,28 @@ class Pages extends CI_Controller {
                     );
 
                     $this->pages_model->set_contact($message);
+                    sendEmail($cleanName, $cleanEmail, $cleanMsg);
 
                     //$this->session->set_flashdata('msg', 'Message sent.');
                     redirect('pages/view');
                 }
+        }
+
+        public function sendEmail($name, $email, $message)
+        {
+            $this->load->library('email');
+            $from = $email;
+            $to = 'missellensun@gmail.com';
+            $subject = '[ellensun.herokuapp.com] Contact Message';
+
+            $this->email->from($from, $name);
+            $this->email->to($to);
+            $this->email->subject($subject);
+            $this->email->message($message);
+            if ($this->email->send()) {
+            } else {
+                show_404();
+            }
         }
 
         public function portfolio()
