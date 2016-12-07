@@ -11,9 +11,9 @@
 		  		</div>
 		  		<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav" id="top-nav">
-							<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 							<li><a class="page-scroll" href="#about">About</a></li>
 							<li><a class="page-scroll" href="#resume">Resume</a></li>
+							<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 							<li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right social">
