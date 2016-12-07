@@ -7,7 +7,7 @@
 
 	<div class="row">
 	  <?php foreach ($portfolio as $portfolio_item): ?>
-	  	<?php if ($portfolio_item['active'] == 1) {
+	  	<?php if ($portfolio_item['active'] == 1) { ?>
 		  	<div class="col-md-4">
 		  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
 
@@ -18,8 +18,8 @@
 		        <p><?php echo $portfolio_item['technologies']; ?></p>
 
 	      	</div>
-	   	} ?>
-		<?php endforeach; ?>
+	   	<?php } ?>
+	  <?php endforeach; ?>
 	    
 		
 	</div>
