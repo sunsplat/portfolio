@@ -7,16 +7,18 @@
 
 	<div class="row">
 	  <?php foreach ($portfolio as $portfolio_item): ?>
-	  	<div class="col-md-4">
-	  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
+	  	<?php if ($portfolio_item['active'] == 1) {
+		  	<div class="col-md-4">
+		  		<h3><?php echo $portfolio_item['project_name']; ?></h3>
 
-        <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail" target="_blank">
-        	<img class="thumbs" src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
-        </a>
-        
-        <p><?php echo $portfolio_item['technologies']; ?></p>
+		        <a href="<?php echo $portfolio_item['link']; ?>" class="thumbnail" target="_blank">
+		        	<img class="thumbs" src="<?php echo base_url('assets/images/'.$portfolio_item['image_url']); ?>">
+		        </a>
+		        
+		        <p><?php echo $portfolio_item['technologies']; ?></p>
 
-      </div>
+	      	</div>
+	   	} ?>
 		<?php endforeach; ?>
 	    
 		
