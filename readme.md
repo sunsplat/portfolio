@@ -22,14 +22,14 @@ Twitter: [@ms_ellerz](http://www.twitter.com/ms_ellerz)
 
 
 *********
-##My Specialties
+## My Specialties
 
 
 LAMP stack (Linux, Apache, MySQL, PHP), JavaScript, jQuery, Ruby, Ruby on Rails, Git, PostgreSQL, HTML, CSS, Wordpress, Adobe Photoshop, Adobe Illustrator, Adobe Lightroom
 
 
 ***************
-##Languages:
+## Languages:
 
 
 * Mandarin Chinese (Professional-working level)  
